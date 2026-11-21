@@ -1,0 +1,729 @@
+period,cc_code,cc_name,dept_code,dept_name,bu_code,bu_name,remote_only,is_active
+2025-01,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-01,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-01,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-01,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-01,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-01,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-01,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-01,CC1012,Cards 05,D02,Cards,BU01,Consumer Banking,False,True
+2025-01,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-01,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-01,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-01,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-01,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-01,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-01,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-01,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-01,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-01,CC1023,Corporate Lending 06,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-01,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-01,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-01,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-01,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-01,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-01,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-01,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-01,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-01,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-01,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-01,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-01,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-01,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-01,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-01,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-01,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-01,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-01,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-01,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-01,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-01,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-01,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-01,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-01,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,True
+2025-01,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-01,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-01,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-01,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-01,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-01,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-01,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-01,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-01,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-01,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-01,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-01,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-01,CC1050,Customer Service 03,D10,Customer Service,BU04,Operations,False,True
+2025-01,CC1053,Customer Service 06,D10,Customer Service,BU04,Operations,False,True
+2025-01,CC1052,Customer Service 05,D10,Customer Service,BU04,Operations,True,True
+2025-01,CC1051,Customer Service 04,D10,Customer Service,BU04,Operations,False,True
+2025-01,CC1049,Customer Service 02,D10,Customer Service,BU04,Operations,False,True
+2025-01,CC1048,Customer Service 01,D10,Customer Service,BU04,Operations,False,True
+2025-02,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-02,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-02,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-02,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-02,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-02,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-02,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-02,CC1012,Cards 05,D02,Cards,BU01,Consumer Banking,False,True
+2025-02,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-02,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-02,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-02,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-02,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-02,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-02,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-02,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-02,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-02,CC1023,Corporate Lending 06,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-02,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-02,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-02,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-02,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-02,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-02,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-02,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-02,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-02,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-02,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-02,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-02,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-02,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-02,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-02,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-02,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-02,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-02,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-02,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-02,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-02,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-02,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-02,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-02,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,True
+2025-02,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-02,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-02,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-02,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-02,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-02,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-02,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-02,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-02,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-02,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-02,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-02,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-02,CC1050,Customer Service 03,D10,Customer Service,BU04,Operations,False,True
+2025-02,CC1053,Customer Service 06,D10,Customer Service,BU04,Operations,False,True
+2025-02,CC1052,Customer Service 05,D10,Customer Service,BU04,Operations,True,True
+2025-02,CC1051,Customer Service 04,D10,Customer Service,BU04,Operations,False,True
+2025-02,CC1049,Customer Service 02,D10,Customer Service,BU04,Operations,False,True
+2025-02,CC1048,Customer Service 01,D10,Customer Service,BU04,Operations,False,True
+2025-03,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-03,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-03,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-03,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-03,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-03,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-03,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-03,CC1012,Cards 05,D02,Cards,BU01,Consumer Banking,False,True
+2025-03,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-03,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-03,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-03,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-03,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-03,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-03,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-03,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-03,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-03,CC1023,Corporate Lending 06,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-03,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-03,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-03,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-03,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-03,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-03,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-03,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-03,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-03,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-03,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-03,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-03,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-03,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-03,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-03,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-03,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-03,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-03,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-03,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-03,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-03,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-03,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-03,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-03,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,True
+2025-03,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-03,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-03,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-03,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-03,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-03,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-03,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-03,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-03,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-03,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-03,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-03,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-03,CC1050,Customer Service 03,D10,Customer Service,BU04,Operations,False,True
+2025-03,CC1053,Customer Service 06,D10,Customer Service,BU04,Operations,False,True
+2025-03,CC1052,Customer Service 05,D10,Customer Service,BU04,Operations,True,True
+2025-03,CC1051,Customer Service 04,D10,Customer Service,BU04,Operations,False,True
+2025-03,CC1049,Customer Service 02,D10,Customer Service,BU04,Operations,False,True
+2025-03,CC1048,Customer Service 01,D10,Customer Service,BU04,Operations,False,True
+2025-04,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-04,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-04,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-04,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-04,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-04,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-04,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-04,CC1012,Cards 05,D02,Cards,BU01,Consumer Banking,False,True
+2025-04,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-04,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-04,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-04,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-04,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-04,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-04,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-04,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-04,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-04,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-04,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-04,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-04,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-04,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-04,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-04,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-04,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-04,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-04,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-04,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-04,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-04,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-04,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-04,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-04,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-04,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-04,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-04,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-04,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-04,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-04,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-04,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-04,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,True
+2025-04,CC1023,Corporate Lending 06,D09,Payments Operations,BU04,Operations,False,True
+2025-04,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-04,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-04,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-04,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-04,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-04,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-04,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-04,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-04,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-04,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-04,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-04,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-04,CC1050,Customer Service 03,D10,Customer Service,BU04,Operations,False,True
+2025-04,CC1053,Customer Service 06,D10,Customer Service,BU04,Operations,False,True
+2025-04,CC1052,Customer Service 05,D10,Customer Service,BU04,Operations,True,True
+2025-04,CC1051,Customer Service 04,D10,Customer Service,BU04,Operations,False,True
+2025-04,CC1049,Customer Service 02,D10,Customer Service,BU04,Operations,False,True
+2025-04,CC1048,Customer Service 01,D10,Customer Service,BU04,Operations,False,True
+2025-05,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-05,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-05,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-05,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-05,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-05,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-05,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-05,CC1012,Cards 05,D02,Cards,BU01,Consumer Banking,False,True
+2025-05,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-05,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-05,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-05,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-05,CC1061,Digital Channels 06,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-05,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-05,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-05,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-05,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-05,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-05,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-05,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-05,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-05,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-05,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-05,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-05,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-05,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-05,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-05,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-05,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-05,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-05,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-05,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-05,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-05,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-05,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-05,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-05,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-05,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-05,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-05,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-05,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-05,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,True
+2025-05,CC1023,Corporate Lending 06,D09,Payments Operations,BU04,Operations,False,True
+2025-05,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-05,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-05,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-05,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-05,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-05,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-05,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-05,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-05,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-05,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-05,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-05,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-05,CC1050,Customer Service 03,D10,Customer Service,BU04,Operations,False,True
+2025-05,CC1053,Customer Service 06,D10,Customer Service,BU04,Operations,False,True
+2025-05,CC1052,Customer Service 05,D10,Customer Service,BU04,Operations,True,True
+2025-05,CC1051,Customer Service 04,D10,Customer Service,BU04,Operations,False,True
+2025-05,CC1049,Customer Service 02,D10,Customer Service,BU04,Operations,False,True
+2025-05,CC1048,Customer Service 01,D10,Customer Service,BU04,Operations,False,True
+2025-06,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-06,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-06,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-06,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-06,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-06,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-06,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-06,CC1012,Cards 05,D02,Cards,BU01,Consumer Banking,False,True
+2025-06,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-06,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-06,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-06,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-06,CC1061,Digital Channels 06,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-06,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-06,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-06,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-06,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-06,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-06,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-06,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-06,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-06,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-06,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-06,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-06,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-06,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-06,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-06,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-06,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-06,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-06,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-06,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-06,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-06,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-06,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-06,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-06,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-06,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-06,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-06,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-06,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-06,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,True
+2025-06,CC1023,Corporate Lending 06,D09,Payments Operations,BU04,Operations,False,True
+2025-06,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-06,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-06,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-06,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-06,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-06,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-06,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-06,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-06,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-06,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-06,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-06,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-06,CC1050,Customer Service 03,D10,Customer Service,BU04,Operations,False,True
+2025-06,CC1053,Customer Service 06,D10,Customer Service,BU04,Operations,False,True
+2025-06,CC1052,Customer Service 05,D10,Customer Service,BU04,Operations,True,True
+2025-06,CC1051,Customer Service 04,D10,Customer Service,BU04,Operations,False,True
+2025-06,CC1049,Customer Service 02,D10,Customer Service,BU04,Operations,False,True
+2025-06,CC1048,Customer Service 01,D10,Customer Service,BU04,Operations,False,True
+2025-07,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-07,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-07,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-07,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-07,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-07,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-07,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-07,CC1012,Cards 05,D02,Cards,BU01,Consumer Banking,False,True
+2025-07,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-07,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-07,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-07,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-07,CC1061,Digital Channels 06,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-07,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-07,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-07,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-07,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-07,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-07,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-07,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-07,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-07,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-07,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-07,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-07,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-07,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-07,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-07,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-07,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-07,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-07,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-07,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-07,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-07,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-07,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-07,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-07,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-07,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-07,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-07,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-07,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-07,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,True
+2025-07,CC1023,Corporate Lending 06,D09,Payments Operations,BU04,Operations,False,True
+2025-07,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-07,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-07,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-07,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-07,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-07,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-07,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-07,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-07,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-07,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-07,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-07,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-07,CC1050,Customer Service 03,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-07,CC1053,Customer Service 06,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-07,CC1052,Customer Service 05,D10,Customer Service,BU01,Consumer Banking,True,True
+2025-07,CC1051,Customer Service 04,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-07,CC1049,Customer Service 02,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-07,CC1048,Customer Service 01,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-08,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-08,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-08,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-08,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-08,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-08,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-08,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-08,CC1012,Cards 05,D02,Cards,BU01,Consumer Banking,False,True
+2025-08,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-08,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-08,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-08,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-08,CC1061,Digital Channels 06,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-08,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-08,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-08,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-08,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-08,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-08,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-08,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-08,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-08,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-08,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-08,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-08,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-08,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-08,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-08,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-08,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-08,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-08,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-08,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-08,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-08,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-08,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-08,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-08,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-08,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-08,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-08,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-08,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-08,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,True
+2025-08,CC1023,Corporate Lending 06,D09,Payments Operations,BU04,Operations,False,True
+2025-08,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-08,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-08,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-08,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-08,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-08,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-08,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-08,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-08,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-08,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-08,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-08,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-08,CC1050,Customer Service 03,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-08,CC1053,Customer Service 06,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-08,CC1052,Customer Service 05,D10,Customer Service,BU01,Consumer Banking,True,True
+2025-08,CC1051,Customer Service 04,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-08,CC1049,Customer Service 02,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-08,CC1048,Customer Service 01,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-09,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-09,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-09,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-09,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-09,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-09,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-09,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-09,CC1012,Cards 05,D02,Cards,BU01,Consumer Banking,False,True
+2025-09,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-09,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-09,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-09,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-09,CC1061,Digital Channels 06,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-09,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-09,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-09,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-09,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-09,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-09,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-09,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-09,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-09,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-09,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-09,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-09,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-09,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-09,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-09,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-09,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-09,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-09,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-09,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-09,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-09,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-09,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-09,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-09,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-09,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-09,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-09,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-09,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-09,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,False
+2025-09,CC1023,Corporate Lending 06,D09,Payments Operations,BU04,Operations,False,True
+2025-09,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-09,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-09,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-09,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-09,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-09,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-09,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-09,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-09,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-09,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-09,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-09,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-09,CC1050,Customer Service 03,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-09,CC1053,Customer Service 06,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-09,CC1052,Customer Service 05,D10,Customer Service,BU01,Consumer Banking,True,True
+2025-09,CC1051,Customer Service 04,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-09,CC1049,Customer Service 02,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-09,CC1048,Customer Service 01,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-10,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-10,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-10,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-10,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-10,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-10,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-10,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-10,CC1012,Cards Premium 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-10,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-10,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-10,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-10,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-10,CC1061,Digital Channels 06,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-10,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-10,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-10,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-10,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-10,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-10,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-10,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-10,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-10,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-10,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-10,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-10,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-10,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-10,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-10,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-10,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-10,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-10,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-10,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-10,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-10,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-10,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-10,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-10,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-10,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-10,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-10,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-10,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-10,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,False
+2025-10,CC1023,Corporate Lending 06,D09,Payments Operations,BU04,Operations,False,True
+2025-10,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-10,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-10,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-10,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-10,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-10,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-10,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-10,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-10,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-10,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-10,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-10,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-10,CC1050,Customer Service 03,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-10,CC1053,Customer Service 06,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-10,CC1052,Customer Service 05,D10,Customer Service,BU01,Consumer Banking,True,True
+2025-10,CC1051,Customer Service 04,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-10,CC1049,Customer Service 02,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-10,CC1048,Customer Service 01,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-11,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-11,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-11,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-11,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-11,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-11,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-11,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-11,CC1012,Cards Premium 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-11,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-11,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-11,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-11,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-11,CC1061,Digital Channels 06,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-11,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-11,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-11,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-11,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-11,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-11,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-11,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-11,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-11,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-11,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-11,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-11,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-11,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-11,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-11,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-11,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-11,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-11,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-11,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-11,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-11,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-11,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-11,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-11,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-11,CC1050,Customer Service 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-11,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-11,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-11,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-11,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-11,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,False
+2025-11,CC1023,Corporate Lending 06,D09,Payments Operations,BU04,Operations,False,True
+2025-11,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-11,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-11,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-11,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-11,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-11,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-11,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-11,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-11,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-11,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-11,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-11,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-11,CC1053,Customer Service 06,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-11,CC1052,Customer Service 05,D10,Customer Service,BU01,Consumer Banking,True,True
+2025-11,CC1051,Customer Service 04,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-11,CC1049,Customer Service 02,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-11,CC1048,Customer Service 01,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-12,CC1007,Retail Branches 07,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-12,CC1006,Retail Branches 06,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-12,CC1005,Retail Branches 05,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-12,CC1004,Retail Branches 04,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-12,CC1003,Retail Branches 03,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-12,CC1002,Retail Branches 02,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-12,CC1001,Retail Branches 01,D01,Retail Branches,BU01,Consumer Banking,False,True
+2025-12,CC1012,Cards Premium 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-12,CC1011,Cards 04,D02,Cards,BU01,Consumer Banking,False,True
+2025-12,CC1010,Cards 03,D02,Cards,BU01,Consumer Banking,False,True
+2025-12,CC1009,Cards 02,D02,Cards,BU01,Consumer Banking,False,True
+2025-12,CC1008,Cards 01,D02,Cards,BU01,Consumer Banking,False,True
+2025-12,CC1061,Digital Channels 06,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-12,CC1017,Digital Channels 05,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-12,CC1016,Digital Channels 04,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-12,CC1015,Digital Channels 03,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-12,CC1014,Digital Channels 02,D03,Digital Channels,BU01,Consumer Banking,True,True
+2025-12,CC1013,Digital Channels 01,D03,Digital Channels,BU01,Consumer Banking,False,True
+2025-12,CC1022,Corporate Lending 05,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-12,CC1021,Corporate Lending 04,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-12,CC1020,Corporate Lending 03,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-12,CC1019,Corporate Lending 02,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-12,CC1018,Corporate Lending 01,D04,Corporate Lending,BU02,Commercial Banking,False,True
+2025-12,CC1027,Trade Finance 04,D05,Trade Finance,BU02,Commercial Banking,True,True
+2025-12,CC1026,Trade Finance 03,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-12,CC1025,Trade Finance 02,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-12,CC1024,Trade Finance 01,D05,Trade Finance,BU02,Commercial Banking,False,True
+2025-12,CC1032,Advisory 05,D06,Advisory,BU03,Wealth Management,False,True
+2025-12,CC1031,Advisory 04,D06,Advisory,BU03,Wealth Management,False,True
+2025-12,CC1030,Advisory 03,D06,Advisory,BU03,Wealth Management,False,True
+2025-12,CC1029,Advisory 02,D06,Advisory,BU03,Wealth Management,False,True
+2025-12,CC1028,Advisory 01,D06,Advisory,BU03,Wealth Management,False,True
+2025-12,CC1037,Investment Products 05,D07,Investment Products,BU03,Wealth Management,False,True
+2025-12,CC1036,Investment Products 04,D07,Investment Products,BU03,Wealth Management,True,True
+2025-12,CC1035,Investment Products 03,D07,Investment Products,BU03,Wealth Management,False,True
+2025-12,CC1034,Investment Products 02,D07,Investment Products,BU03,Wealth Management,False,True
+2025-12,CC1033,Investment Products 01,D07,Investment Products,BU03,Wealth Management,False,True
+2025-12,CC1050,Customer Service 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-12,CC1041,Private Clients 04,D08,Private Clients,BU03,Wealth Management,False,True
+2025-12,CC1040,Private Clients 03,D08,Private Clients,BU03,Wealth Management,False,True
+2025-12,CC1039,Private Clients 02,D08,Private Clients,BU03,Wealth Management,False,True
+2025-12,CC1038,Private Clients 01,D08,Private Clients,BU03,Wealth Management,False,True
+2025-12,CC1047,Payments Operations 06,D09,Payments Operations,BU04,Operations,False,False
+2025-12,CC1023,Corporate Lending 06,D09,Payments Operations,BU04,Operations,False,True
+2025-12,CC1046,Payments Operations 05,D09,Payments Operations,BU04,Operations,False,True
+2025-12,CC1045,Payments Operations 04,D09,Payments Operations,BU04,Operations,False,True
+2025-12,CC1044,Payments Operations 03,D09,Payments Operations,BU04,Operations,True,True
+2025-12,CC1043,Payments Operations 02,D09,Payments Operations,BU04,Operations,False,True
+2025-12,CC1042,Payments Operations 01,D09,Payments Operations,BU04,Operations,False,True
+2025-12,CC1057,Finance 04,D11,Finance,BU05,Corporate Functions,False,True
+2025-12,CC1056,Finance 03,D11,Finance,BU05,Corporate Functions,False,True
+2025-12,CC1055,Finance 02,D11,Finance,BU05,Corporate Functions,False,True
+2025-12,CC1054,Finance 01,D11,Finance,BU05,Corporate Functions,False,True
+2025-12,CC1060,HR & Legal 03,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-12,CC1059,HR & Legal 02,D12,HR & Legal,BU05,Corporate Functions,False,True
+2025-12,CC1058,HR & Legal 01,D12,HR & Legal,BU05,Corporate Functions,True,True
+2025-12,CC1053,Customer Service 06,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-12,CC1052,Customer Service 05,D10,Customer Service,BU01,Consumer Banking,True,True
+2025-12,CC1051,Customer Service 04,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-12,CC1049,Customer Service 02,D10,Customer Service,BU01,Consumer Banking,False,True
+2025-12,CC1048,Customer Service 01,D10,Customer Service,BU01,Consumer Banking,False,True

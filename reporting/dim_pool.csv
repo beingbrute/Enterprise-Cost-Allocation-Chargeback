@@ -1,0 +1,5 @@
+pool_code,pool_name,pool_cc,source_account,allocated_account
+P1,Software Licences,CC9101,6100,7110
+P2,IT Service Desk,CC9102,6200,7120
+P3,Shared Administration,CC9103,6300,7130
+P4,Office Facilities,CC9104,6400,7140

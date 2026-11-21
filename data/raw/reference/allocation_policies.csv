@@ -1,0 +1,6 @@
+pool_code,version,driver,excludes_remote_only,valid_from,valid_to
+P1,1,licensed_users,False,2025-01-01,9999-12-31
+P2,1,tickets_raised,False,2025-01-01,2025-06-30
+P2,2,tickets_resolved,False,2025-07-01,9999-12-31
+P3,1,headcount,False,2025-01-01,9999-12-31
+P4,1,floor_area_sqft,True,2025-01-01,9999-12-31

@@ -1,0 +1,10 @@
+file_name,pool_code,file_type,row_count,control_total,received_at
+expenses_P1.csv,P1,EXPENSE,3,190585.83,2025-04-02 09:00:00
+volumes_P1.csv,P1,VOLUME,60,5141,2025-04-03 12:00:00
+expenses_P2.csv,P2,EXPENSE,4,92241.56,2025-04-02 09:00:00
+volumes_P2.csv,P2,VOLUME,122,4173,2025-04-03 12:00:00
+volumes_P2_v2.csv,P2,VOLUME,120,4093,2025-04-04 14:00:00
+expenses_P3.csv,P3,EXPENSE,7,153372.01,2025-04-02 09:00:00
+volumes_P3.csv,P3,VOLUME,60,4283,2025-04-03 12:00:00
+expenses_P4.csv,P4,EXPENSE,6,203327.57,2025-04-02 09:00:00
+volumes_P4.csv,P4,VOLUME,54,430245,2025-04-03 12:00:00

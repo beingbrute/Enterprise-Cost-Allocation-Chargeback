@@ -1,0 +1,15 @@
+total_id,description,sql_value
+T01,Total shared cost (source expense),7625228.08
+T02,Total chargeback allocated (net),7625228.08
+T03,Unallocated at close (all months),203890.15
+T04,Chargeback BU01,2616996.51
+T05,Chargeback BU02,1055171.21
+T06,Chargeback BU03,1641673.28
+T07,Chargeback BU04,1359097.32
+T08,Chargeback BU05,952289.76
+T09,Posted journals,98
+T10,Journal debits minus credits (all),0.00
+T11,Exceptions,9
+T12,Exceptions escalated,3
+T13,Control results passed,95
+T14,Reconciliation failures,1

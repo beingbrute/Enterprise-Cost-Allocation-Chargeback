@@ -1,0 +1,11 @@
+account,account_name,account_type
+2100,Accounts payable (simulated),Liability
+6100,Software expense,Source expense
+6200,IT support expense,Source expense
+6300,Administration expense,Source expense
+6400,Occupancy expense,Source expense
+7110,Allocated software expense,Allocated expense
+7120,Allocated IT support expense,Allocated expense
+7130,Allocated administration expense,Allocated expense
+7140,Allocated occupancy expense,Allocated expense
+7900,Allocation recovery,Contra expense

@@ -1,0 +1,14 @@
+period,check_code,pool_code,cc_code,severity,expected_outcome,file_name,note
+2025-02,V01,P1,,Critical,blocked,expenses_P1.csv,Missing line INV-2025-02-P1-04 (71174.78); corrected in v2
+2025-03,V02,P2,CC1099,High,blocked,volumes_P2.csv,Unknown cost centre; removed in v2
+2025-05,V03,P1,CC1033,High,blocked,volumes_P1.csv,Volume missing for active cost centre; added in v2
+2025-06,V04,P4,CC1018,High,blocked_at_close,volumes_P4.csv,"Negative floor area; corrected file arrives after June close, allocated as a July catch-up"
+2025-08,V05,P2,CC1005;CC1029,Medium,blocked,volumes_P2.csv,4 duplicate rows; removed in v2
+2025-10,V08,P3,,Low,warning,volumes_P3.csv,File received after cut-off
+2025-10,V06,P4,CC1047,Medium,blocked,volumes_P4.csv,Volume for closed cost centre; removed in v2
+2025-11,V07,ALL,CC1050,Critical,blocked,hierarchy_changes.csv,Mapped to unknown department D99; corrected to D08 in v2
+2025-04,CORRECTION,P3,CC1015,,reversal_and_replacement,volumes_P3_correction.csv,"Headcount 108 corrected to 88; received June, reversal and replacement journals in June"
+2025-09..2025-12,INACTIVE,ALL,CC1047,,no_allocation,,Closed from 1 Sep 2025
+2025-04..2025-12,HIERARCHY,ALL,CC1023,,allocated_to_BU04,,Moved to D09 (BU04) from 1 Apr 2025
+2025-07..2025-12,HIERARCHY,ALL,D10,,allocated_to_BU01,,Department moved to BU01 from 1 Jul 2025
+2025-07..2025-12,POLICY,P2,,,driver_tickets_resolved,,P2 policy v2 from 1 Jul 2025

@@ -1,0 +1,10 @@
+file_name,pool_code,file_type,row_count,control_total,received_at
+hierarchy_changes.csv,,HIERARCHY,1,,2025-10-01 10:00:00
+expenses_P1.csv,P1,EXPENSE,7,174683.37,2025-10-02 09:00:00
+volumes_P1.csv,P1,VOLUME,60,5179,2025-10-03 12:00:00
+expenses_P2.csv,P2,EXPENSE,3,91808.04,2025-10-02 09:00:00
+volumes_P2.csv,P2,VOLUME,120,4213,2025-10-03 12:00:00
+expenses_P3.csv,P3,EXPENSE,8,148907.38,2025-10-02 09:00:00
+volumes_P3.csv,P3,VOLUME,60,4274,2025-10-03 12:00:00
+expenses_P4.csv,P4,EXPENSE,5,226847.02,2025-10-02 09:00:00
+volumes_P4.csv,P4,VOLUME,54,424775,2025-10-03 12:00:00

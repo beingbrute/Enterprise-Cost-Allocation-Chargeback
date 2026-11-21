@@ -1,0 +1,97 @@
+period,control_id,control_name,result,passed,evidence_ref,detail,prepared_by,reviewer_status,recorded_at,run_id
+2025-01,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 2),,pipeline,Reviewed (simulated),2025-02-10 17:00:00,2
+2025-01,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 2)",,pipeline,Reviewed (simulated),2025-02-10 17:00:00,2
+2025-01,C03,Volumes complete and valid,Pass,True,Exception report (run 2),0 open volume exception(s),pipeline,Reviewed (simulated),2025-02-10 17:00:00,2
+2025-01,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 2)",,pipeline,Reviewed (simulated),2025-02-10 17:00:00,2
+2025-01,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 2)",,pipeline,Reviewed (simulated),2025-02-10 17:00:00,2
+2025-01,C06,No duplicate postings,Pass,True,"R08, run history (run 2)",,pipeline,Reviewed (simulated),2025-02-10 17:00:00,2
+2025-01,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 2)",,pipeline,Reviewed (simulated),2025-02-10 17:00:00,2
+2025-01,C08,Month-close approval,Approved,True,Close checklist (run 2),,pipeline,Reviewed (simulated),2025-02-10 17:00:00,2
+2025-02,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 5),,pipeline,Reviewed (simulated),2025-03-10 17:00:00,5
+2025-02,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 5)",,pipeline,Reviewed (simulated),2025-03-10 17:00:00,5
+2025-02,C03,Volumes complete and valid,Pass,True,Exception report (run 5),0 open volume exception(s),pipeline,Reviewed (simulated),2025-03-10 17:00:00,5
+2025-02,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 5)",,pipeline,Reviewed (simulated),2025-03-10 17:00:00,5
+2025-02,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 5)",,pipeline,Reviewed (simulated),2025-03-10 17:00:00,5
+2025-02,C06,No duplicate postings,Pass,True,"R08, run history (run 5)",,pipeline,Reviewed (simulated),2025-03-10 17:00:00,5
+2025-02,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 5)",,pipeline,Reviewed (simulated),2025-03-10 17:00:00,5
+2025-02,C08,Month-close approval,Approved,True,Close checklist (run 5),,pipeline,Reviewed (simulated),2025-03-10 17:00:00,5
+2025-03,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 8),,pipeline,Reviewed (simulated),2025-04-08 17:00:00,8
+2025-03,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 8)",,pipeline,Reviewed (simulated),2025-04-08 17:00:00,8
+2025-03,C03,Volumes complete and valid,Pass,True,Exception report (run 8),0 open volume exception(s),pipeline,Reviewed (simulated),2025-04-08 17:00:00,8
+2025-03,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 8)",,pipeline,Reviewed (simulated),2025-04-08 17:00:00,8
+2025-03,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 8)",,pipeline,Reviewed (simulated),2025-04-08 17:00:00,8
+2025-03,C06,No duplicate postings,Pass,True,"R08, run history (run 8)",,pipeline,Reviewed (simulated),2025-04-08 17:00:00,8
+2025-03,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 8)",,pipeline,Reviewed (simulated),2025-04-08 17:00:00,8
+2025-03,C08,Month-close approval,Approved,True,Close checklist (run 8),,pipeline,Reviewed (simulated),2025-04-08 17:00:00,8
+2025-04,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 10),,pipeline,Reviewed (simulated),2025-05-09 17:00:00,10
+2025-04,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 10)",,pipeline,Reviewed (simulated),2025-05-09 17:00:00,10
+2025-04,C03,Volumes complete and valid,Pass,True,Exception report (run 10),0 open volume exception(s),pipeline,Reviewed (simulated),2025-05-09 17:00:00,10
+2025-04,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 10)",,pipeline,Reviewed (simulated),2025-05-09 17:00:00,10
+2025-04,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 10)",,pipeline,Reviewed (simulated),2025-05-09 17:00:00,10
+2025-04,C06,No duplicate postings,Pass,True,"R08, run history (run 10)",,pipeline,Reviewed (simulated),2025-05-09 17:00:00,10
+2025-04,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 10)",,pipeline,Reviewed (simulated),2025-05-09 17:00:00,10
+2025-04,C08,Month-close approval,Approved,True,Close checklist (run 10),,pipeline,Reviewed (simulated),2025-05-09 17:00:00,10
+2025-05,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 13),,pipeline,Reviewed (simulated),2025-06-09 17:00:00,13
+2025-05,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 13)",,pipeline,Reviewed (simulated),2025-06-09 17:00:00,13
+2025-05,C03,Volumes complete and valid,Pass,True,Exception report (run 13),0 open volume exception(s),pipeline,Reviewed (simulated),2025-06-09 17:00:00,13
+2025-05,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 13)",,pipeline,Reviewed (simulated),2025-06-09 17:00:00,13
+2025-05,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 13)",,pipeline,Reviewed (simulated),2025-06-09 17:00:00,13
+2025-05,C06,No duplicate postings,Pass,True,"R08, run history (run 13)",,pipeline,Reviewed (simulated),2025-06-09 17:00:00,13
+2025-05,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 13)",,pipeline,Reviewed (simulated),2025-06-09 17:00:00,13
+2025-05,C08,Month-close approval,Approved,True,Close checklist (run 13),,pipeline,Reviewed (simulated),2025-06-09 17:00:00,13
+2025-06,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 16),,pipeline,Reviewed (simulated),2025-07-08 17:00:00,16
+2025-06,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 16)",,pipeline,Reviewed (simulated),2025-07-08 17:00:00,16
+2025-06,C03,Volumes complete and valid,Fail,False,Exception report (run 16),1 open volume exception(s),pipeline,Reviewed (simulated),2025-07-08 17:00:00,16
+2025-06,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 16)",,pipeline,Reviewed (simulated),2025-07-08 17:00:00,16
+2025-06,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 16)",,pipeline,Reviewed (simulated),2025-07-08 17:00:00,16
+2025-06,C06,No duplicate postings,Pass,True,"R08, run history (run 16)",,pipeline,Reviewed (simulated),2025-07-08 17:00:00,16
+2025-06,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 16)",,pipeline,Reviewed (simulated),2025-07-08 17:00:00,16
+2025-06,C08,Month-close approval,Approved,True,Close checklist (run 16),,pipeline,Reviewed (simulated),2025-07-08 17:00:00,16
+2025-07,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 19),,pipeline,Reviewed (simulated),2025-08-08 17:00:00,19
+2025-07,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 19)",,pipeline,Reviewed (simulated),2025-08-08 17:00:00,19
+2025-07,C03,Volumes complete and valid,Pass,True,Exception report (run 19),0 open volume exception(s),pipeline,Reviewed (simulated),2025-08-08 17:00:00,19
+2025-07,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 19)",,pipeline,Reviewed (simulated),2025-08-08 17:00:00,19
+2025-07,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 19)",,pipeline,Reviewed (simulated),2025-08-08 17:00:00,19
+2025-07,C06,No duplicate postings,Pass,True,"R08, run history (run 19)",,pipeline,Reviewed (simulated),2025-08-08 17:00:00,19
+2025-07,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 19)",,pipeline,Reviewed (simulated),2025-08-08 17:00:00,19
+2025-07,C08,Month-close approval,Approved,True,Close checklist (run 19),,pipeline,Reviewed (simulated),2025-08-08 17:00:00,19
+2025-08,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 22),,pipeline,Reviewed (simulated),2025-09-08 17:00:00,22
+2025-08,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 22)",,pipeline,Reviewed (simulated),2025-09-08 17:00:00,22
+2025-08,C03,Volumes complete and valid,Pass,True,Exception report (run 22),0 open volume exception(s),pipeline,Reviewed (simulated),2025-09-08 17:00:00,22
+2025-08,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 22)",,pipeline,Reviewed (simulated),2025-09-08 17:00:00,22
+2025-08,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 22)",,pipeline,Reviewed (simulated),2025-09-08 17:00:00,22
+2025-08,C06,No duplicate postings,Pass,True,"R08, run history (run 22)",,pipeline,Reviewed (simulated),2025-09-08 17:00:00,22
+2025-08,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 22)",,pipeline,Reviewed (simulated),2025-09-08 17:00:00,22
+2025-08,C08,Month-close approval,Approved,True,Close checklist (run 22),,pipeline,Reviewed (simulated),2025-09-08 17:00:00,22
+2025-09,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 24),,pipeline,Reviewed (simulated),2025-10-08 17:00:00,24
+2025-09,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 24)",,pipeline,Reviewed (simulated),2025-10-08 17:00:00,24
+2025-09,C03,Volumes complete and valid,Pass,True,Exception report (run 24),0 open volume exception(s),pipeline,Reviewed (simulated),2025-10-08 17:00:00,24
+2025-09,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 24)",,pipeline,Reviewed (simulated),2025-10-08 17:00:00,24
+2025-09,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 24)",,pipeline,Reviewed (simulated),2025-10-08 17:00:00,24
+2025-09,C06,No duplicate postings,Pass,True,"R08, run history (run 24)",,pipeline,Reviewed (simulated),2025-10-08 17:00:00,24
+2025-09,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 24)",,pipeline,Reviewed (simulated),2025-10-08 17:00:00,24
+2025-09,C08,Month-close approval,Approved,True,Close checklist (run 24),,pipeline,Reviewed (simulated),2025-10-08 17:00:00,24
+2025-10,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 28),,pipeline,Reviewed (simulated),2025-11-10 17:00:00,28
+2025-10,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 28)",,pipeline,Reviewed (simulated),2025-11-10 17:00:00,28
+2025-10,C03,Volumes complete and valid,Pass,True,Exception report (run 28),0 open volume exception(s),pipeline,Reviewed (simulated),2025-11-10 17:00:00,28
+2025-10,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 28)",,pipeline,Reviewed (simulated),2025-11-10 17:00:00,28
+2025-10,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 28)",,pipeline,Reviewed (simulated),2025-11-10 17:00:00,28
+2025-10,C06,No duplicate postings,Pass,True,"R08, run history (run 28)",,pipeline,Reviewed (simulated),2025-11-10 17:00:00,28
+2025-10,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 28)",,pipeline,Reviewed (simulated),2025-11-10 17:00:00,28
+2025-10,C08,Month-close approval,Approved,True,Close checklist (run 28),,pipeline,Reviewed (simulated),2025-11-10 17:00:00,28
+2025-11,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 31),,pipeline,Reviewed (simulated),2025-12-08 17:00:00,31
+2025-11,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 31)",,pipeline,Reviewed (simulated),2025-12-08 17:00:00,31
+2025-11,C03,Volumes complete and valid,Pass,True,Exception report (run 31),0 open volume exception(s),pipeline,Reviewed (simulated),2025-12-08 17:00:00,31
+2025-11,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 31)",,pipeline,Reviewed (simulated),2025-12-08 17:00:00,31
+2025-11,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 31)",,pipeline,Reviewed (simulated),2025-12-08 17:00:00,31
+2025-11,C06,No duplicate postings,Pass,True,"R08, run history (run 31)",,pipeline,Reviewed (simulated),2025-12-08 17:00:00,31
+2025-11,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 31)",,pipeline,Reviewed (simulated),2025-12-08 17:00:00,31
+2025-11,C08,Month-close approval,Approved,True,Close checklist (run 31),,pipeline,Reviewed (simulated),2025-12-08 17:00:00,31
+2025-12,C01,All source files received,Pass,True,src.files manifest / ops.run_files (run 33),,pipeline,Reviewed (simulated),2026-01-09 17:00:00,33
+2025-12,C02,Hierarchy valid for the period,Pass,True,"V07 check, R07 (run 33)",,pipeline,Reviewed (simulated),2026-01-09 17:00:00,33
+2025-12,C03,Volumes complete and valid,Pass,True,Exception report (run 33),0 open volume exception(s),pipeline,Reviewed (simulated),2026-01-09 17:00:00,33
+2025-12,C04,Allocations complete or blocked with an exception,Pass,True,"R02, allocation schedule (run 33)",,pipeline,Reviewed (simulated),2026-01-09 17:00:00,33
+2025-12,C05,Journals balanced and valid,Pass,True,"R04, journal report (run 33)",,pipeline,Reviewed (simulated),2026-01-09 17:00:00,33
+2025-12,C06,No duplicate postings,Pass,True,"R08, run history (run 33)",,pipeline,Reviewed (simulated),2026-01-09 17:00:00,33
+2025-12,C07,Ledger agrees with reporting,Pass,True,"R05, R06 (run 33)",,pipeline,Reviewed (simulated),2026-01-09 17:00:00,33
+2025-12,C08,Month-close approval,Approved,True,Close checklist (run 33),,pipeline,Reviewed (simulated),2026-01-09 17:00:00,33

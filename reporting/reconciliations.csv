@@ -1,0 +1,492 @@
+run_id,run_type,run_at,period,recon_id,recon_name,pool_code,left_value,right_value,difference,result
+1,Cut-off,2025-02-05 18:00:00,2025-01,R01,Source control total vs loaded expense,P1,185712.09,185712.09,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R01,Source control total vs loaded expense,P2,89261.86,89261.86,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R01,Source control total vs loaded expense,P3,136340.37,136340.37,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R01,Source control total vs loaded expense,P4,199147.27,199147.27,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R02,Pool cost = allocated + unallocated,P1,185712.09,185712.09,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R02,Pool cost = allocated + unallocated,P2,89261.86,89261.86,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R02,Pool cost = allocated + unallocated,P3,136340.37,136340.37,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R02,Pool cost = allocated + unallocated,P4,199147.27,199147.27,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R03,Allocation detail vs summary,P1,185712.09,185712.09,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R03,Allocation detail vs summary,P2,89261.86,89261.86,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R03,Allocation detail vs summary,P3,136340.37,136340.37,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R03,Allocation detail vs summary,P4,199147.27,199147.27,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R04,Ledger debits vs credits (posting period),ALL,1220923.18,1220923.18,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R05,Posted journal vs allocation schedule,P1,185712.09,185712.09,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R05,Posted journal vs allocation schedule,P2,89261.86,89261.86,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R05,Posted journal vs allocation schedule,P3,136340.37,136340.37,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R05,Posted journal vs allocation schedule,P4,199147.27,199147.27,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R06,Company-wide expense before vs after allocation,ALL,610461.59,610461.59,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+1,Cut-off,2025-02-05 18:00:00,2025-01,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R01,Source control total vs loaded expense,P1,185712.09,185712.09,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R01,Source control total vs loaded expense,P2,89261.86,89261.86,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R01,Source control total vs loaded expense,P3,136340.37,136340.37,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R01,Source control total vs loaded expense,P4,199147.27,199147.27,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R02,Pool cost = allocated + unallocated,P1,185712.09,185712.09,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R02,Pool cost = allocated + unallocated,P2,89261.86,89261.86,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R02,Pool cost = allocated + unallocated,P3,136340.37,136340.37,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R02,Pool cost = allocated + unallocated,P4,199147.27,199147.27,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R04,Ledger debits vs credits (posting period),ALL,1220923.18,1220923.18,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R06,Company-wide expense before vs after allocation,ALL,610461.59,610461.59,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+2,Close,2025-02-10 17:00:00,2025-01,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R01,Source control total vs loaded expense,P1,171880.47,100705.69,71174.78,Fail
+3,Cut-off,2025-03-05 18:00:00,2025-02,R01,Source control total vs loaded expense,P2,92750.43,92750.43,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R01,Source control total vs loaded expense,P3,150207.60,150207.60,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R01,Source control total vs loaded expense,P4,201358.31,201358.31,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R02,Pool cost = allocated + unallocated,P2,92750.43,92750.43,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R02,Pool cost = allocated + unallocated,P3,150207.60,150207.60,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R02,Pool cost = allocated + unallocated,P4,201358.31,201358.31,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R03,Allocation detail vs summary,P2,92750.43,92750.43,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R03,Allocation detail vs summary,P3,150207.60,150207.60,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R03,Allocation detail vs summary,P4,201358.31,201358.31,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R04,Ledger debits vs credits (posting period),ALL,888632.68,888632.68,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R05,Posted journal vs allocation schedule,P2,92750.43,92750.43,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R05,Posted journal vs allocation schedule,P3,150207.60,150207.60,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R05,Posted journal vs allocation schedule,P4,201358.31,201358.31,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R06,Company-wide expense before vs after allocation,ALL,444316.34,444316.34,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+3,Cut-off,2025-03-05 18:00:00,2025-02,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R01,Source control total vs loaded expense,P1,171880.47,171880.47,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R01,Source control total vs loaded expense,P2,92750.43,92750.43,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R01,Source control total vs loaded expense,P3,150207.60,150207.60,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R01,Source control total vs loaded expense,P4,201358.31,201358.31,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R02,Pool cost = allocated + unallocated,P1,171880.47,171880.47,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R02,Pool cost = allocated + unallocated,P2,92750.43,92750.43,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R02,Pool cost = allocated + unallocated,P3,150207.60,150207.60,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R02,Pool cost = allocated + unallocated,P4,201358.31,201358.31,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R03,Allocation detail vs summary,P1,171880.47,171880.47,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R04,Ledger debits vs credits (posting period),ALL,1232393.62,1232393.62,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R05,Posted journal vs allocation schedule,P1,171880.47,171880.47,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R06,Company-wide expense before vs after allocation,ALL,616196.81,616196.81,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+4,Rerun,2025-03-06 16:00:00,2025-02,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R01,Source control total vs loaded expense,P1,171880.47,171880.47,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R01,Source control total vs loaded expense,P2,92750.43,92750.43,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R01,Source control total vs loaded expense,P3,150207.60,150207.60,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R01,Source control total vs loaded expense,P4,201358.31,201358.31,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R02,Pool cost = allocated + unallocated,P1,171880.47,171880.47,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R02,Pool cost = allocated + unallocated,P2,92750.43,92750.43,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R02,Pool cost = allocated + unallocated,P3,150207.60,150207.60,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R02,Pool cost = allocated + unallocated,P4,201358.31,201358.31,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R04,Ledger debits vs credits (posting period),ALL,1232393.62,1232393.62,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R06,Company-wide expense before vs after allocation,ALL,616196.81,616196.81,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+5,Close,2025-03-10 17:00:00,2025-02,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R01,Source control total vs loaded expense,P1,190585.83,190585.83,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R01,Source control total vs loaded expense,P2,92241.56,92241.56,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R01,Source control total vs loaded expense,P3,153372.01,153372.01,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R01,Source control total vs loaded expense,P4,203327.57,203327.57,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R02,Pool cost = allocated + unallocated,P1,190585.83,190585.83,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R02,Pool cost = allocated + unallocated,P2,92241.56,92241.56,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R02,Pool cost = allocated + unallocated,P3,153372.01,153372.01,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R02,Pool cost = allocated + unallocated,P4,203327.57,203327.57,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R03,Allocation detail vs summary,P1,190585.83,190585.83,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R03,Allocation detail vs summary,P3,153372.01,153372.01,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R03,Allocation detail vs summary,P4,203327.57,203327.57,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R04,Ledger debits vs credits (posting period),ALL,1186812.38,1186812.38,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R05,Posted journal vs allocation schedule,P1,190585.83,190585.83,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R05,Posted journal vs allocation schedule,P3,153372.01,153372.01,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R05,Posted journal vs allocation schedule,P4,203327.57,203327.57,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R06,Company-wide expense before vs after allocation,ALL,639526.97,639526.97,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+6,Cut-off,2025-04-03 18:00:00,2025-03,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R01,Source control total vs loaded expense,P1,190585.83,190585.83,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R01,Source control total vs loaded expense,P2,92241.56,92241.56,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R01,Source control total vs loaded expense,P3,153372.01,153372.01,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R01,Source control total vs loaded expense,P4,203327.57,203327.57,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R02,Pool cost = allocated + unallocated,P1,190585.83,190585.83,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R02,Pool cost = allocated + unallocated,P2,92241.56,92241.56,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R02,Pool cost = allocated + unallocated,P3,153372.01,153372.01,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R02,Pool cost = allocated + unallocated,P4,203327.57,203327.57,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R03,Allocation detail vs summary,P2,92241.56,92241.56,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R04,Ledger debits vs credits (posting period),ALL,1279053.94,1279053.94,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R05,Posted journal vs allocation schedule,P2,92241.56,92241.56,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R06,Company-wide expense before vs after allocation,ALL,639526.97,639526.97,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+7,Rerun,2025-04-04 15:00:00,2025-03,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R01,Source control total vs loaded expense,P1,190585.83,190585.83,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R01,Source control total vs loaded expense,P2,92241.56,92241.56,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R01,Source control total vs loaded expense,P3,153372.01,153372.01,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R01,Source control total vs loaded expense,P4,203327.57,203327.57,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R02,Pool cost = allocated + unallocated,P1,190585.83,190585.83,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R02,Pool cost = allocated + unallocated,P2,92241.56,92241.56,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R02,Pool cost = allocated + unallocated,P3,153372.01,153372.01,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R02,Pool cost = allocated + unallocated,P4,203327.57,203327.57,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R04,Ledger debits vs credits (posting period),ALL,1279053.94,1279053.94,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R06,Company-wide expense before vs after allocation,ALL,639526.97,639526.97,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+8,Close,2025-04-08 17:00:00,2025-03,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R01,Source control total vs loaded expense,P1,175370.42,175370.42,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R01,Source control total vs loaded expense,P2,93952.44,93952.44,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R01,Source control total vs loaded expense,P3,132425.64,132425.64,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R01,Source control total vs loaded expense,P4,224277.09,224277.09,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R02,Pool cost = allocated + unallocated,P1,175370.42,175370.42,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R02,Pool cost = allocated + unallocated,P2,93952.44,93952.44,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R02,Pool cost = allocated + unallocated,P3,132425.64,132425.64,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R02,Pool cost = allocated + unallocated,P4,224277.09,224277.09,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R03,Allocation detail vs summary,P1,175370.42,175370.42,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R03,Allocation detail vs summary,P2,93952.44,93952.44,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R03,Allocation detail vs summary,P3,132425.64,132425.64,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R03,Allocation detail vs summary,P4,224277.09,224277.09,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R04,Ledger debits vs credits (posting period),ALL,1252051.18,1252051.18,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R05,Posted journal vs allocation schedule,P1,175370.42,175370.42,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R05,Posted journal vs allocation schedule,P2,93952.44,93952.44,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R05,Posted journal vs allocation schedule,P3,132425.64,132425.64,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R05,Posted journal vs allocation schedule,P4,224277.09,224277.09,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R06,Company-wide expense before vs after allocation,ALL,626025.59,626025.59,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+9,Cut-off,2025-05-06 18:00:00,2025-04,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R01,Source control total vs loaded expense,P1,175370.42,175370.42,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R01,Source control total vs loaded expense,P2,93952.44,93952.44,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R01,Source control total vs loaded expense,P3,132425.64,132425.64,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R01,Source control total vs loaded expense,P4,224277.09,224277.09,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R02,Pool cost = allocated + unallocated,P1,175370.42,175370.42,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R02,Pool cost = allocated + unallocated,P2,93952.44,93952.44,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R02,Pool cost = allocated + unallocated,P3,132425.64,132425.64,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R02,Pool cost = allocated + unallocated,P4,224277.09,224277.09,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R04,Ledger debits vs credits (posting period),ALL,1252051.18,1252051.18,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R06,Company-wide expense before vs after allocation,ALL,626025.59,626025.59,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+10,Close,2025-05-09 17:00:00,2025-04,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R01,Source control total vs loaded expense,P1,178712.19,178712.19,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R01,Source control total vs loaded expense,P2,100201.99,100201.99,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R01,Source control total vs loaded expense,P3,135210.86,135210.86,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R01,Source control total vs loaded expense,P4,211482.49,211482.49,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R02,Pool cost = allocated + unallocated,P1,178712.19,178712.19,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R02,Pool cost = allocated + unallocated,P2,100201.99,100201.99,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R02,Pool cost = allocated + unallocated,P3,135210.86,135210.86,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R02,Pool cost = allocated + unallocated,P4,211482.49,211482.49,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R03,Allocation detail vs summary,P2,100201.99,100201.99,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R03,Allocation detail vs summary,P3,135210.86,135210.86,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R03,Allocation detail vs summary,P4,211482.49,211482.49,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R04,Ledger debits vs credits (posting period),ALL,1072502.87,1072502.87,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R05,Posted journal vs allocation schedule,P2,100201.99,100201.99,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R05,Posted journal vs allocation schedule,P3,135210.86,135210.86,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R05,Posted journal vs allocation schedule,P4,211482.49,211482.49,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R06,Company-wide expense before vs after allocation,ALL,625607.53,625607.53,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+11,Cut-off,2025-06-04 18:00:00,2025-05,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R01,Source control total vs loaded expense,P1,178712.19,178712.19,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R01,Source control total vs loaded expense,P2,100201.99,100201.99,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R01,Source control total vs loaded expense,P3,135210.86,135210.86,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R01,Source control total vs loaded expense,P4,211482.49,211482.49,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R02,Pool cost = allocated + unallocated,P1,178712.19,178712.19,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R02,Pool cost = allocated + unallocated,P2,100201.99,100201.99,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R02,Pool cost = allocated + unallocated,P3,135210.86,135210.86,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R02,Pool cost = allocated + unallocated,P4,211482.49,211482.49,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R03,Allocation detail vs summary,P1,178712.19,178712.19,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R04,Ledger debits vs credits (posting period),ALL,1251215.06,1251215.06,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R05,Posted journal vs allocation schedule,P1,178712.19,178712.19,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R06,Company-wide expense before vs after allocation,ALL,625607.53,625607.53,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+12,Rerun,2025-06-05 15:00:00,2025-05,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R01,Source control total vs loaded expense,P1,178712.19,178712.19,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R01,Source control total vs loaded expense,P2,100201.99,100201.99,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R01,Source control total vs loaded expense,P3,135210.86,135210.86,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R01,Source control total vs loaded expense,P4,211482.49,211482.49,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R02,Pool cost = allocated + unallocated,P1,178712.19,178712.19,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R02,Pool cost = allocated + unallocated,P2,100201.99,100201.99,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R02,Pool cost = allocated + unallocated,P3,135210.86,135210.86,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R02,Pool cost = allocated + unallocated,P4,211482.49,211482.49,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R04,Ledger debits vs credits (posting period),ALL,1251215.06,1251215.06,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R06,Company-wide expense before vs after allocation,ALL,625607.53,625607.53,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+13,Close,2025-06-09 17:00:00,2025-05,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R01,Source control total vs loaded expense,P1,175370.42,175370.42,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R01,Source control total vs loaded expense,P2,93952.44,93952.44,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R01,Source control total vs loaded expense,P3,132425.64,132425.64,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R01,Source control total vs loaded expense,P4,224277.09,224277.09,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R02,Pool cost = allocated + unallocated,P1,175370.42,175370.42,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R02,Pool cost = allocated + unallocated,P2,93952.44,93952.44,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R02,Pool cost = allocated + unallocated,P3,132425.64,132425.64,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R02,Pool cost = allocated + unallocated,P4,224277.09,224277.09,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R03,Allocation detail vs summary,P3,132425.64,132425.64,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R04,Ledger debits vs credits (posting period),ALL,264851.28,264851.28,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R05,Posted journal vs allocation schedule,P3,132425.64,132425.64,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R06,Company-wide expense before vs after allocation,ALL,0.00,0.00,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+14,Adjustment,2025-06-11 11:00:00,2025-04,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R01,Source control total vs loaded expense,P1,179572.95,179572.95,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R01,Source control total vs loaded expense,P2,97849.16,97849.16,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R01,Source control total vs loaded expense,P3,136795.43,136795.43,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R01,Source control total vs loaded expense,P4,203890.15,203890.15,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R02,Pool cost = allocated + unallocated,P1,179572.95,179572.95,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R02,Pool cost = allocated + unallocated,P2,97849.16,97849.16,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R02,Pool cost = allocated + unallocated,P3,136795.43,136795.43,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R02,Pool cost = allocated + unallocated,P4,203890.15,203890.15,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R03,Allocation detail vs summary,P1,179572.95,179572.95,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R03,Allocation detail vs summary,P2,97849.16,97849.16,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R03,Allocation detail vs summary,P3,136795.43,136795.43,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R04,Ledger debits vs credits (posting period),ALL,1297176.51,1297176.51,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R05,Posted journal vs allocation schedule,P1,179572.95,179572.95,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R05,Posted journal vs allocation schedule,P2,97849.16,97849.16,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R05,Posted journal vs allocation schedule,P3,136795.43,136795.43,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R06,Company-wide expense before vs after allocation,ALL,618107.69,618107.69,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+15,Cut-off,2025-07-03 18:00:00,2025-06,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R01,Source control total vs loaded expense,P1,179572.95,179572.95,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R01,Source control total vs loaded expense,P2,97849.16,97849.16,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R01,Source control total vs loaded expense,P3,136795.43,136795.43,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R01,Source control total vs loaded expense,P4,203890.15,203890.15,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R02,Pool cost = allocated + unallocated,P1,179572.95,179572.95,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R02,Pool cost = allocated + unallocated,P2,97849.16,97849.16,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R02,Pool cost = allocated + unallocated,P3,136795.43,136795.43,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R02,Pool cost = allocated + unallocated,P4,203890.15,203890.15,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R04,Ledger debits vs credits (posting period),ALL,1297176.51,1297176.51,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R06,Company-wide expense before vs after allocation,ALL,618107.69,618107.69,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+16,Close,2025-07-08 17:00:00,2025-06,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R01,Source control total vs loaded expense,P1,179572.95,179572.95,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R01,Source control total vs loaded expense,P2,97849.16,97849.16,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R01,Source control total vs loaded expense,P3,136795.43,136795.43,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R01,Source control total vs loaded expense,P4,203890.15,203890.15,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R02,Pool cost = allocated + unallocated,P1,179572.95,179572.95,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R02,Pool cost = allocated + unallocated,P2,97849.16,97849.16,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R02,Pool cost = allocated + unallocated,P3,136795.43,136795.43,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R02,Pool cost = allocated + unallocated,P4,203890.15,203890.15,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R03,Allocation detail vs summary,P4,203890.15,203890.15,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R04,Ledger debits vs credits (posting period),ALL,203890.15,203890.15,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R05,Posted journal vs allocation schedule,P4,203890.15,203890.15,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R06,Company-wide expense before vs after allocation,ALL,0.00,0.00,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+17,Adjustment,2025-07-14 15:00:00,2025-06,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R01,Source control total vs loaded expense,P1,178584.61,178584.61,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R01,Source control total vs loaded expense,P2,98157.78,98157.78,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R01,Source control total vs loaded expense,P3,131065.75,131065.75,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R01,Source control total vs loaded expense,P4,215493.64,215493.64,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R02,Pool cost = allocated + unallocated,P1,178584.61,178584.61,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R02,Pool cost = allocated + unallocated,P2,98157.78,98157.78,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R02,Pool cost = allocated + unallocated,P3,131065.75,131065.75,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R02,Pool cost = allocated + unallocated,P4,215493.64,215493.64,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R03,Allocation detail vs summary,P1,178584.61,178584.61,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R03,Allocation detail vs summary,P2,98157.78,98157.78,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R03,Allocation detail vs summary,P3,131065.75,131065.75,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R03,Allocation detail vs summary,P4,215493.64,215493.64,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R04,Ledger debits vs credits (posting period),ALL,1450493.71,1450493.71,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R05,Posted journal vs allocation schedule,P1,178584.61,178584.61,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R05,Posted journal vs allocation schedule,P2,98157.78,98157.78,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R05,Posted journal vs allocation schedule,P3,131065.75,131065.75,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R05,Posted journal vs allocation schedule,P4,215493.64,215493.64,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R06,Company-wide expense before vs after allocation,ALL,623301.78,623301.78,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+18,Cut-off,2025-08-05 18:00:00,2025-07,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R01,Source control total vs loaded expense,P1,178584.61,178584.61,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R01,Source control total vs loaded expense,P2,98157.78,98157.78,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R01,Source control total vs loaded expense,P3,131065.75,131065.75,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R01,Source control total vs loaded expense,P4,215493.64,215493.64,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R02,Pool cost = allocated + unallocated,P1,178584.61,178584.61,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R02,Pool cost = allocated + unallocated,P2,98157.78,98157.78,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R02,Pool cost = allocated + unallocated,P3,131065.75,131065.75,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R02,Pool cost = allocated + unallocated,P4,215493.64,215493.64,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R04,Ledger debits vs credits (posting period),ALL,1450493.71,1450493.71,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R06,Company-wide expense before vs after allocation,ALL,623301.78,623301.78,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+19,Close,2025-08-08 17:00:00,2025-07,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R01,Source control total vs loaded expense,P1,175741.15,175741.15,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R01,Source control total vs loaded expense,P2,89359.69,89359.69,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R01,Source control total vs loaded expense,P3,153184.68,153184.68,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R01,Source control total vs loaded expense,P4,230789.03,230789.03,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R02,Pool cost = allocated + unallocated,P1,175741.15,175741.15,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R02,Pool cost = allocated + unallocated,P2,89359.69,89359.69,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R02,Pool cost = allocated + unallocated,P3,153184.68,153184.68,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R02,Pool cost = allocated + unallocated,P4,230789.03,230789.03,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R03,Allocation detail vs summary,P1,175741.15,175741.15,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R03,Allocation detail vs summary,P3,153184.68,153184.68,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R03,Allocation detail vs summary,P4,230789.03,230789.03,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R04,Ledger debits vs credits (posting period),ALL,1208789.41,1208789.41,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R05,Posted journal vs allocation schedule,P1,175741.15,175741.15,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R05,Posted journal vs allocation schedule,P3,153184.68,153184.68,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R05,Posted journal vs allocation schedule,P4,230789.03,230789.03,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R06,Company-wide expense before vs after allocation,ALL,649074.55,649074.55,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+20,Cut-off,2025-09-03 18:00:00,2025-08,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R01,Source control total vs loaded expense,P1,175741.15,175741.15,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R01,Source control total vs loaded expense,P2,89359.69,89359.69,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R01,Source control total vs loaded expense,P3,153184.68,153184.68,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R01,Source control total vs loaded expense,P4,230789.03,230789.03,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R02,Pool cost = allocated + unallocated,P1,175741.15,175741.15,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R02,Pool cost = allocated + unallocated,P2,89359.69,89359.69,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R02,Pool cost = allocated + unallocated,P3,153184.68,153184.68,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R02,Pool cost = allocated + unallocated,P4,230789.03,230789.03,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R03,Allocation detail vs summary,P2,89359.69,89359.69,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R04,Ledger debits vs credits (posting period),ALL,1298149.10,1298149.10,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R05,Posted journal vs allocation schedule,P2,89359.69,89359.69,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R06,Company-wide expense before vs after allocation,ALL,649074.55,649074.55,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+21,Rerun,2025-09-04 15:00:00,2025-08,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R01,Source control total vs loaded expense,P1,175741.15,175741.15,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R01,Source control total vs loaded expense,P2,89359.69,89359.69,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R01,Source control total vs loaded expense,P3,153184.68,153184.68,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R01,Source control total vs loaded expense,P4,230789.03,230789.03,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R02,Pool cost = allocated + unallocated,P1,175741.15,175741.15,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R02,Pool cost = allocated + unallocated,P2,89359.69,89359.69,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R02,Pool cost = allocated + unallocated,P3,153184.68,153184.68,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R02,Pool cost = allocated + unallocated,P4,230789.03,230789.03,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R04,Ledger debits vs credits (posting period),ALL,1298149.10,1298149.10,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R06,Company-wide expense before vs after allocation,ALL,649074.55,649074.55,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+22,Close,2025-09-08 17:00:00,2025-08,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R01,Source control total vs loaded expense,P1,174683.37,174683.37,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R01,Source control total vs loaded expense,P2,91808.04,91808.04,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R01,Source control total vs loaded expense,P3,148907.38,148907.38,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R01,Source control total vs loaded expense,P4,226847.02,226847.02,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R02,Pool cost = allocated + unallocated,P1,174683.37,174683.37,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R02,Pool cost = allocated + unallocated,P2,91808.04,91808.04,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R02,Pool cost = allocated + unallocated,P3,148907.38,148907.38,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R02,Pool cost = allocated + unallocated,P4,226847.02,226847.02,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R03,Allocation detail vs summary,P1,174683.37,174683.37,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R03,Allocation detail vs summary,P2,91808.04,91808.04,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R03,Allocation detail vs summary,P3,148907.38,148907.38,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R03,Allocation detail vs summary,P4,226847.02,226847.02,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R04,Ledger debits vs credits (posting period),ALL,1284491.62,1284491.62,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R05,Posted journal vs allocation schedule,P1,174683.37,174683.37,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R05,Posted journal vs allocation schedule,P2,91808.04,91808.04,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R05,Posted journal vs allocation schedule,P3,148907.38,148907.38,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R05,Posted journal vs allocation schedule,P4,226847.02,226847.02,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R06,Company-wide expense before vs after allocation,ALL,642245.81,642245.81,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+23,Cut-off,2025-10-03 18:00:00,2025-09,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R01,Source control total vs loaded expense,P1,174683.37,174683.37,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R01,Source control total vs loaded expense,P2,91808.04,91808.04,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R01,Source control total vs loaded expense,P3,148907.38,148907.38,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R01,Source control total vs loaded expense,P4,226847.02,226847.02,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R02,Pool cost = allocated + unallocated,P1,174683.37,174683.37,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R02,Pool cost = allocated + unallocated,P2,91808.04,91808.04,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R02,Pool cost = allocated + unallocated,P3,148907.38,148907.38,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R02,Pool cost = allocated + unallocated,P4,226847.02,226847.02,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R04,Ledger debits vs credits (posting period),ALL,1284491.62,1284491.62,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R06,Company-wide expense before vs after allocation,ALL,642245.81,642245.81,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+24,Close,2025-10-08 17:00:00,2025-09,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R01,Source control total vs loaded expense,P1,199663.59,199663.59,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R01,Source control total vs loaded expense,P2,95535.75,95535.75,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R01,Source control total vs loaded expense,P3,133740.22,133740.22,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R01,Source control total vs loaded expense,P4,203554.46,203554.46,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R02,Pool cost = allocated + unallocated,P1,199663.59,199663.59,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R02,Pool cost = allocated + unallocated,P2,95535.75,95535.75,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R02,Pool cost = allocated + unallocated,P4,203554.46,203554.46,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R03,Allocation detail vs summary,P1,199663.59,199663.59,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R03,Allocation detail vs summary,P2,95535.75,95535.75,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R04,Ledger debits vs credits (posting period),ALL,793953.14,793953.14,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R05,Posted journal vs allocation schedule,P1,199663.59,199663.59,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R05,Posted journal vs allocation schedule,P2,95535.75,95535.75,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R06,Company-wide expense before vs after allocation,ALL,498753.80,498753.80,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+25,Cut-off,2025-11-05 18:00:00,2025-10,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R01,Source control total vs loaded expense,P1,199663.59,199663.59,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R01,Source control total vs loaded expense,P2,95535.75,95535.75,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R01,Source control total vs loaded expense,P3,133740.22,133740.22,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R01,Source control total vs loaded expense,P4,203554.46,203554.46,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R02,Pool cost = allocated + unallocated,P1,199663.59,199663.59,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R02,Pool cost = allocated + unallocated,P2,95535.75,95535.75,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R02,Pool cost = allocated + unallocated,P4,203554.46,203554.46,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R03,Allocation detail vs summary,P4,203554.46,203554.46,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R04,Ledger debits vs credits (posting period),ALL,997507.60,997507.60,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R05,Posted journal vs allocation schedule,P4,203554.46,203554.46,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R06,Company-wide expense before vs after allocation,ALL,498753.80,498753.80,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+26,Rerun,2025-11-06 15:00:00,2025-10,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R01,Source control total vs loaded expense,P1,199663.59,199663.59,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R01,Source control total vs loaded expense,P2,95535.75,95535.75,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R01,Source control total vs loaded expense,P3,133740.22,133740.22,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R01,Source control total vs loaded expense,P4,203554.46,203554.46,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R02,Pool cost = allocated + unallocated,P1,199663.59,199663.59,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R02,Pool cost = allocated + unallocated,P2,95535.75,95535.75,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R02,Pool cost = allocated + unallocated,P3,133740.22,133740.22,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R02,Pool cost = allocated + unallocated,P4,203554.46,203554.46,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R03,Allocation detail vs summary,P3,133740.22,133740.22,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R04,Ledger debits vs credits (posting period),ALL,1264988.04,1264988.04,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R05,Posted journal vs allocation schedule,P3,133740.22,133740.22,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R06,Company-wide expense before vs after allocation,ALL,632494.02,632494.02,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+27,Rerun,2025-11-07 17:00:00,2025-10,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R01,Source control total vs loaded expense,P1,199663.59,199663.59,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R01,Source control total vs loaded expense,P2,95535.75,95535.75,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R01,Source control total vs loaded expense,P3,133740.22,133740.22,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R01,Source control total vs loaded expense,P4,203554.46,203554.46,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R02,Pool cost = allocated + unallocated,P1,199663.59,199663.59,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R02,Pool cost = allocated + unallocated,P2,95535.75,95535.75,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R02,Pool cost = allocated + unallocated,P3,133740.22,133740.22,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R02,Pool cost = allocated + unallocated,P4,203554.46,203554.46,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R04,Ledger debits vs credits (posting period),ALL,1264988.04,1264988.04,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R06,Company-wide expense before vs after allocation,ALL,632494.02,632494.02,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+28,Close,2025-11-10 17:00:00,2025-10,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R01,Source control total vs loaded expense,P1,207567.94,207567.94,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R01,Source control total vs loaded expense,P2,105695.35,105695.35,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R01,Source control total vs loaded expense,P3,158814.01,158814.01,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R01,Source control total vs loaded expense,P4,212175.01,212175.01,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R02,Pool cost = allocated + unallocated,P1,207567.94,207567.94,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R02,Pool cost = allocated + unallocated,P2,105695.35,105695.35,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R02,Pool cost = allocated + unallocated,P3,158814.01,158814.01,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R02,Pool cost = allocated + unallocated,P4,212175.01,212175.01,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R04,Ledger debits vs credits (posting period),ALL,684252.31,684252.31,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R06,Company-wide expense before vs after allocation,ALL,684252.31,684252.31,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+29,Cut-off,2025-12-03 18:00:00,2025-11,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R01,Source control total vs loaded expense,P1,207567.94,207567.94,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R01,Source control total vs loaded expense,P2,105695.35,105695.35,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R01,Source control total vs loaded expense,P3,158814.01,158814.01,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R01,Source control total vs loaded expense,P4,212175.01,212175.01,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R02,Pool cost = allocated + unallocated,P1,207567.94,207567.94,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R02,Pool cost = allocated + unallocated,P2,105695.35,105695.35,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R02,Pool cost = allocated + unallocated,P3,158814.01,158814.01,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R02,Pool cost = allocated + unallocated,P4,212175.01,212175.01,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R03,Allocation detail vs summary,P1,207567.94,207567.94,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R03,Allocation detail vs summary,P2,105695.35,105695.35,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R03,Allocation detail vs summary,P3,158814.01,158814.01,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R03,Allocation detail vs summary,P4,212175.01,212175.01,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R04,Ledger debits vs credits (posting period),ALL,1368504.62,1368504.62,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R05,Posted journal vs allocation schedule,P1,207567.94,207567.94,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R05,Posted journal vs allocation schedule,P2,105695.35,105695.35,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R05,Posted journal vs allocation schedule,P3,158814.01,158814.01,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R05,Posted journal vs allocation schedule,P4,212175.01,212175.01,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R06,Company-wide expense before vs after allocation,ALL,684252.31,684252.31,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+30,Rerun,2025-12-04 12:00:00,2025-11,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R01,Source control total vs loaded expense,P1,207567.94,207567.94,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R01,Source control total vs loaded expense,P2,105695.35,105695.35,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R01,Source control total vs loaded expense,P3,158814.01,158814.01,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R01,Source control total vs loaded expense,P4,212175.01,212175.01,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R02,Pool cost = allocated + unallocated,P1,207567.94,207567.94,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R02,Pool cost = allocated + unallocated,P2,105695.35,105695.35,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R02,Pool cost = allocated + unallocated,P3,158814.01,158814.01,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R02,Pool cost = allocated + unallocated,P4,212175.01,212175.01,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R04,Ledger debits vs credits (posting period),ALL,1368504.62,1368504.62,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R06,Company-wide expense before vs after allocation,ALL,684252.31,684252.31,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+31,Close,2025-12-08 17:00:00,2025-11,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R01,Source control total vs loaded expense,P1,200038.62,200038.62,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R01,Source control total vs loaded expense,P2,100706.73,100706.73,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R01,Source control total vs loaded expense,P3,145621.17,145621.17,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R01,Source control total vs loaded expense,P4,211566.91,211566.91,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R02,Pool cost = allocated + unallocated,P1,200038.62,200038.62,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R02,Pool cost = allocated + unallocated,P2,100706.73,100706.73,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R02,Pool cost = allocated + unallocated,P3,145621.17,145621.17,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R02,Pool cost = allocated + unallocated,P4,211566.91,211566.91,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R03,Allocation detail vs summary,P1,200038.62,200038.62,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R03,Allocation detail vs summary,P2,100706.73,100706.73,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R03,Allocation detail vs summary,P3,145621.17,145621.17,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R03,Allocation detail vs summary,P4,211566.91,211566.91,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R04,Ledger debits vs credits (posting period),ALL,1315866.86,1315866.86,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R05,Posted journal vs allocation schedule,P1,200038.62,200038.62,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R05,Posted journal vs allocation schedule,P2,100706.73,100706.73,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R05,Posted journal vs allocation schedule,P3,145621.17,145621.17,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R05,Posted journal vs allocation schedule,P4,211566.91,211566.91,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R06,Company-wide expense before vs after allocation,ALL,657933.43,657933.43,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+32,Cut-off,2026-01-06 18:00:00,2025-12,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R01,Source control total vs loaded expense,P1,200038.62,200038.62,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R01,Source control total vs loaded expense,P2,100706.73,100706.73,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R01,Source control total vs loaded expense,P3,145621.17,145621.17,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R01,Source control total vs loaded expense,P4,211566.91,211566.91,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R02,Pool cost = allocated + unallocated,P1,200038.62,200038.62,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R02,Pool cost = allocated + unallocated,P2,100706.73,100706.73,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R02,Pool cost = allocated + unallocated,P3,145621.17,145621.17,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R02,Pool cost = allocated + unallocated,P4,211566.91,211566.91,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R04,Ledger debits vs credits (posting period),ALL,1315866.86,1315866.86,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R06,Company-wide expense before vs after allocation,ALL,657933.43,657933.43,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R07,Cost centres with invalid or double mapping,ALL,0.00,0.00,0.00,Pass
+33,Close,2026-01-09 17:00:00,2025-12,R08,Duplicate active postings,ALL,0.00,0.00,0.00,Pass

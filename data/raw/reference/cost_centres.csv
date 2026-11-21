@@ -1,0 +1,65 @@
+cc_code,cc_name,dept_code,remote_only,valid_from
+CC1001,Retail Branches 01,D01,False,2025-01-01
+CC1002,Retail Branches 02,D01,False,2025-01-01
+CC1003,Retail Branches 03,D01,False,2025-01-01
+CC1004,Retail Branches 04,D01,False,2025-01-01
+CC1005,Retail Branches 05,D01,False,2025-01-01
+CC1006,Retail Branches 06,D01,False,2025-01-01
+CC1007,Retail Branches 07,D01,False,2025-01-01
+CC1008,Cards 01,D02,False,2025-01-01
+CC1009,Cards 02,D02,False,2025-01-01
+CC1010,Cards 03,D02,False,2025-01-01
+CC1011,Cards 04,D02,False,2025-01-01
+CC1012,Cards 05,D02,False,2025-01-01
+CC1013,Digital Channels 01,D03,False,2025-01-01
+CC1014,Digital Channels 02,D03,True,2025-01-01
+CC1015,Digital Channels 03,D03,False,2025-01-01
+CC1016,Digital Channels 04,D03,False,2025-01-01
+CC1017,Digital Channels 05,D03,False,2025-01-01
+CC1018,Corporate Lending 01,D04,False,2025-01-01
+CC1019,Corporate Lending 02,D04,False,2025-01-01
+CC1020,Corporate Lending 03,D04,False,2025-01-01
+CC1021,Corporate Lending 04,D04,False,2025-01-01
+CC1022,Corporate Lending 05,D04,False,2025-01-01
+CC1023,Corporate Lending 06,D04,False,2025-01-01
+CC1024,Trade Finance 01,D05,False,2025-01-01
+CC1025,Trade Finance 02,D05,False,2025-01-01
+CC1026,Trade Finance 03,D05,False,2025-01-01
+CC1027,Trade Finance 04,D05,True,2025-01-01
+CC1028,Advisory 01,D06,False,2025-01-01
+CC1029,Advisory 02,D06,False,2025-01-01
+CC1030,Advisory 03,D06,False,2025-01-01
+CC1031,Advisory 04,D06,False,2025-01-01
+CC1032,Advisory 05,D06,False,2025-01-01
+CC1033,Investment Products 01,D07,False,2025-01-01
+CC1034,Investment Products 02,D07,False,2025-01-01
+CC1035,Investment Products 03,D07,False,2025-01-01
+CC1036,Investment Products 04,D07,True,2025-01-01
+CC1037,Investment Products 05,D07,False,2025-01-01
+CC1038,Private Clients 01,D08,False,2025-01-01
+CC1039,Private Clients 02,D08,False,2025-01-01
+CC1040,Private Clients 03,D08,False,2025-01-01
+CC1041,Private Clients 04,D08,False,2025-01-01
+CC1042,Payments Operations 01,D09,False,2025-01-01
+CC1043,Payments Operations 02,D09,False,2025-01-01
+CC1044,Payments Operations 03,D09,True,2025-01-01
+CC1045,Payments Operations 04,D09,False,2025-01-01
+CC1046,Payments Operations 05,D09,False,2025-01-01
+CC1047,Payments Operations 06,D09,False,2025-01-01
+CC1048,Customer Service 01,D10,False,2025-01-01
+CC1049,Customer Service 02,D10,False,2025-01-01
+CC1050,Customer Service 03,D10,False,2025-01-01
+CC1051,Customer Service 04,D10,False,2025-01-01
+CC1052,Customer Service 05,D10,True,2025-01-01
+CC1053,Customer Service 06,D10,False,2025-01-01
+CC1054,Finance 01,D11,False,2025-01-01
+CC1055,Finance 02,D11,False,2025-01-01
+CC1056,Finance 03,D11,False,2025-01-01
+CC1057,Finance 04,D11,False,2025-01-01
+CC1058,HR & Legal 01,D12,True,2025-01-01
+CC1059,HR & Legal 02,D12,False,2025-01-01
+CC1060,HR & Legal 03,D12,False,2025-01-01
+CC9101,Software Licences Pool,D90,False,2025-01-01
+CC9102,IT Service Desk Pool,D90,False,2025-01-01
+CC9103,Shared Administration Pool,D90,False,2025-01-01
+CC9104,Office Facilities Pool,D90,False,2025-01-01

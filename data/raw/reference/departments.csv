@@ -1,0 +1,14 @@
+dept_code,dept_name,bu_code,valid_from
+D01,Retail Branches,BU01,2025-01-01
+D02,Cards,BU01,2025-01-01
+D03,Digital Channels,BU01,2025-01-01
+D04,Corporate Lending,BU02,2025-01-01
+D05,Trade Finance,BU02,2025-01-01
+D06,Advisory,BU03,2025-01-01
+D07,Investment Products,BU03,2025-01-01
+D08,Private Clients,BU03,2025-01-01
+D09,Payments Operations,BU04,2025-01-01
+D10,Customer Service,BU04,2025-01-01
+D11,Finance,BU05,2025-01-01
+D12,HR & Legal,BU05,2025-01-01
+D90,Shared Services,BU90,2025-01-01

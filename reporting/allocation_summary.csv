@@ -1,0 +1,49 @@
+period,pool_code,pool_name,driver,total_units,rate,allocation_version,pool_cost,allocated_total,unallocated_now,allocated_by_close,unallocated_at_close,status_at_close
+2025-12,P1,Software Licences,licensed_users,5127,39.016700,1,200038.62,200038.62,0.00,200038.62,0.00,Posted
+2025-11,P1,Software Licences,licensed_users,5165,40.187404,1,207567.94,207567.94,0.00,207567.94,0.00,Posted
+2025-10,P1,Software Licences,licensed_users,5160,38.694494,1,199663.59,199663.59,0.00,199663.59,0.00,Already posted
+2025-09,P1,Software Licences,licensed_users,5179,33.729170,1,174683.37,174683.37,0.00,174683.37,0.00,Posted
+2025-08,P1,Software Licences,licensed_users,5307,33.114971,1,175741.15,175741.15,0.00,175741.15,0.00,Already posted
+2025-07,P1,Software Licences,licensed_users,5239,34.087538,1,178584.61,178584.61,0.00,178584.61,0.00,Posted
+2025-06,P1,Software Licences,licensed_users,5228,34.348307,1,179572.95,179572.95,0.00,179572.95,0.00,Posted
+2025-05,P1,Software Licences,licensed_users,5240,34.105380,1,178712.19,178712.19,0.00,178712.19,0.00,Posted
+2025-04,P1,Software Licences,licensed_users,5120,34.252035,1,175370.42,175370.42,0.00,175370.42,0.00,Posted
+2025-03,P1,Software Licences,licensed_users,5141,37.071743,1,190585.83,190585.83,0.00,190585.83,0.00,Already posted
+2025-02,P1,Software Licences,licensed_users,5168,33.258605,1,171880.47,171880.47,0.00,171880.47,0.00,Posted
+2025-01,P1,Software Licences,licensed_users,5169,35.928050,1,185712.09,185712.09,0.00,185712.09,0.00,Posted
+2025-12,P2,IT Service Desk,tickets_resolved,1906,52.836689,1,100706.73,100706.73,0.00,100706.73,0.00,Posted
+2025-11,P2,IT Service Desk,tickets_resolved,1942,54.426030,1,105695.35,105695.35,0.00,105695.35,0.00,Posted
+2025-10,P2,IT Service Desk,tickets_resolved,1969,48.519934,1,95535.75,95535.75,0.00,95535.75,0.00,Already posted
+2025-09,P2,IT Service Desk,tickets_resolved,2047,44.850044,1,91808.04,91808.04,0.00,91808.04,0.00,Posted
+2025-08,P2,IT Service Desk,tickets_resolved,2045,43.696670,1,89359.69,89359.69,0.00,89359.69,0.00,Posted
+2025-07,P2,IT Service Desk,tickets_resolved,1938,50.649009,1,98157.78,98157.78,0.00,98157.78,0.00,Posted
+2025-06,P2,IT Service Desk,tickets_raised,2024,48.344447,1,97849.16,97849.16,0.00,97849.16,0.00,Posted
+2025-05,P2,IT Service Desk,tickets_raised,2155,46.497443,1,100201.99,100201.99,0.00,100201.99,0.00,Already posted
+2025-04,P2,IT Service Desk,tickets_raised,2006,46.835713,1,93952.44,93952.44,0.00,93952.44,0.00,Posted
+2025-03,P2,IT Service Desk,tickets_raised,2115,43.613031,1,92241.56,92241.56,0.00,92241.56,0.00,Posted
+2025-02,P2,IT Service Desk,tickets_raised,1926,48.157025,1,92750.43,92750.43,0.00,92750.43,0.00,Already posted
+2025-01,P2,IT Service Desk,tickets_raised,1995,44.742787,1,89261.86,89261.86,0.00,89261.86,0.00,Posted
+2025-12,P3,Shared Administration,headcount,4327,33.654072,1,145621.17,145621.17,0.00,145621.17,0.00,Posted
+2025-11,P3,Shared Administration,headcount,4299,36.942082,1,158814.01,158814.01,0.00,158814.01,0.00,Posted
+2025-10,P3,Shared Administration,headcount,4260,31.394418,1,133740.22,133740.22,0.00,133740.22,0.00,Posted
+2025-09,P3,Shared Administration,headcount,4274,34.840285,1,148907.38,148907.38,0.00,148907.38,0.00,Posted
+2025-08,P3,Shared Administration,headcount,4314,35.508734,1,153184.68,153184.68,0.00,153184.68,0.00,Already posted
+2025-07,P3,Shared Administration,headcount,4307,30.430868,1,131065.75,131065.75,0.00,131065.75,0.00,Posted
+2025-06,P3,Shared Administration,headcount,4308,31.753814,1,136795.43,136795.43,0.00,136795.43,0.00,Posted
+2025-05,P3,Shared Administration,headcount,4308,31.385994,1,135210.86,135210.86,0.00,135210.86,0.00,Already posted
+2025-04,P3,Shared Administration,headcount,4268,31.027563,2,132425.64,132425.64,0.00,132425.64,0.00,Posted
+2025-03,P3,Shared Administration,headcount,4283,35.809482,1,153372.01,153372.01,0.00,153372.01,0.00,Already posted
+2025-02,P3,Shared Administration,headcount,4266,35.210408,1,150207.60,150207.60,0.00,150207.60,0.00,Already posted
+2025-01,P3,Shared Administration,headcount,4298,31.721817,1,136340.37,136340.37,0.00,136340.37,0.00,Posted
+2025-12,P4,Office Facilities,floor_area_sqft,424821,0.498014,1,211566.91,211566.91,0.00,211566.91,0.00,Posted
+2025-11,P4,Office Facilities,floor_area_sqft,426348,0.497657,1,212175.01,212175.01,0.00,212175.01,0.00,Posted
+2025-10,P4,Office Facilities,floor_area_sqft,442050,0.460478,1,203554.46,203554.46,0.00,203554.46,0.00,Already posted
+2025-09,P4,Office Facilities,floor_area_sqft,424775,0.534040,1,226847.02,226847.02,0.00,226847.02,0.00,Posted
+2025-08,P4,Office Facilities,floor_area_sqft,440119,0.524379,1,230789.03,230789.03,0.00,230789.03,0.00,Already posted
+2025-07,P4,Office Facilities,floor_area_sqft,434851,0.495557,1,215493.64,215493.64,0.00,215493.64,0.00,Posted
+2025-06,P4,Office Facilities,floor_area_sqft,430082,0.474073,1,203890.15,203890.15,0.00,0,203890.15,Blocked
+2025-05,P4,Office Facilities,floor_area_sqft,440498,0.480099,1,211482.49,211482.49,0.00,211482.49,0.00,Already posted
+2025-04,P4,Office Facilities,floor_area_sqft,439057,0.510815,1,224277.09,224277.09,0.00,224277.09,0.00,Posted
+2025-03,P4,Office Facilities,floor_area_sqft,430245,0.472586,1,203327.57,203327.57,0.00,203327.57,0.00,Already posted
+2025-02,P4,Office Facilities,floor_area_sqft,442196,0.455360,1,201358.31,201358.31,0.00,201358.31,0.00,Already posted
+2025-01,P4,Office Facilities,floor_area_sqft,439097,0.453538,1,199147.27,199147.27,0.00,199147.27,0.00,Posted
