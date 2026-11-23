@@ -69,3 +69,28 @@ A pool can still be unallocated at an approved close if its exception is not Cri
 2. Refresh the Excel workpaper (Data > Refresh All) and check that R09 shows OK for all 12 totals.
 3. Refresh the Power BI report and check that R10 shows OK for all 14 totals.
 4. Review unallocated cost at close, open and escalated exceptions, and failed controls before sending the report.
+
+## 7. Expense policy review (monthly, after payment)
+
+Rules: [expense_policy.md](expense_policy.md). Implemented in `src/policy_review.py`; reviewer decisions are simulated from `data/raw/policy/reviewer_actions.csv`.
+
+| When | Step | Owner |
+|---|---|---|
+| Working day 2 of the next month, 18:00 | Review run: check every claim paid in the month (P01–P10) and open a case per breach | Expense Policy Analyst |
+| Next working day | Triage each new case | Expense Policy Analyst |
+| Within the decision deadline (High 3, Medium 5, Low 10 working days) | Collect evidence and decide | Expense Policy Analyst |
+| Within 20 working days of the decision | Recover any disallowed amount | Expense Policy Analyst, Payroll |
+| Every working day, 09:00 | Escalate past-due decisions and recoveries to the Manager | Expense Policy Analyst |
+| Working day 5 of the next month, 17:00 | Record governance controls G01–G06 | Expense Policy Analyst |
+
+1. **Check.** Each claim is checked against the policy version in force on its expense date. A claim covered by a valid exception in the register is not a breach.
+2. **Open and triage.** Log the claim, check, severity, amount in question and decision due date. Escalate High cases over $1,000 to the Manager at once. If the employee now has 3 or more cases in 12 months, report it to their business unit finance director.
+3. **Decide.** Record the decision with its evidence:
+   - No breach (evidence shows the claim is within policy)
+   - Exception approved (add an entry to the exception register with the reason)
+   - Partly reimbursed (disallow the amount over the limit)
+   - Rejected (disallow the whole amount)
+   - Corrected (process breach such as the wrong approver; re-approve correctly, nothing disallowed)
+4. **Recover.** Request repayment or payroll deduction for any disallowed amount. If it fails, reopen the case and try again.
+5. **Close.** Close only when the decision has evidence and the full amount is recovered.
+6. **Report.** Export the reporting views, refresh the Excel workpaper (R09 must show all 18 totals OK) and the Power BI report (R10 all 20 OK), and review open cases, escalations and outstanding amounts.

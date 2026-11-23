@@ -1,6 +1,6 @@
 # Data dictionary: reporting views (schema `rpt`)
 
-Excel and Power BI read only these views, defined in `sql/03_reporting_views.sql`. They are built from posted journals and recorded results, not from draft data. `src/export_reporting.py` writes each view to `reporting/<view>.csv`.
+Excel and Power BI read only these views, defined in `sql/03_reporting_views.sql` (chargeback) and `sql/06_policy_views.sql` (expense policy). They are built from posted journals and recorded results, not from draft data. `src/export_reporting.py` writes each view to `reporting/<view>.csv`.
 
 Periods are text in the form `YYYY-MM`. Amounts are USD with 2 decimals.
 
@@ -122,6 +122,46 @@ Periods are text in the form `YYYY-MM`. Amounts are USD with 2 decimals.
 
 **monthly_kpis**: one row per month: shared_cost, allocated_by_close, unallocated_at_close, exceptions_opened, exceptions_escalated, controls_passed, controls_total, recon_failures, runs (excluding closes), status, closed_at.
 
+## Expense policy views
+
+**dim_employee**: employee_id, role (Staff, Manager, Department head, Finance director), cc_code, dept_code, bu_code, bu_name, line_manager_id, dept_head_id, finance_director_id.
+
+**policy_claims**: one row per claim (484).
+| Column | Meaning |
+|---|---|
+| claim_id, employee_id, bu_code | Claim and claimant |
+| period | Month the claim was paid (the month it is reviewed) |
+| submitted_date, approved_by, paid_date | Submission, approver, payment |
+| claim_total | Total claimed |
+| line_count | Number of lines |
+| case_count | Cases raised on this claim |
+
+**policy_cases**: one row per case (15).
+| Column | Meaning |
+|---|---|
+| case_id, period, claim_id | Case, review month and claim |
+| check_code, check_name, severity | Policy check (P01–P10) that failed |
+| employee_id, bu_code | Claimant |
+| amount_in_question | Amount the check found over the limit or at issue |
+| detail | What the check found, with the policy version |
+| owner_role, status | Owner; Open, Triaged, Decided, Remediation, Closed or Reopened |
+| decision | No breach, Exception approved, Partly reimbursed, Rejected or Corrected |
+| disallowed, recovered, outstanding | Amount disallowed, recovered so far, and the difference |
+| evidence | Evidence recorded with the decision |
+| escalated, escalated_at | Whether and when the case was escalated |
+| opened_at, triaged_at, decision_due_at, decided_at, remediation_due_at, closed_at | Timeline |
+| working_days_to_decide, decided_within_sla | Working days from intake to decision, and whether the deadline was met |
+| reopened | True if a recovery failed |
+| repeat_reported | True if this case made the employee a repeat case (3 in 12 months) |
+
+**policy_case_events**: case_id, event_at, event_type (Opened, Triaged, Escalated, Decided, Exception recorded, Recovery requested, Recovery failed, Recovered, Closed, Repeat reported), detail.
+
+**policy_governance**: one row per control per month (72): period, control_id (G01–G06), control_name, result (Pass or Fail), passed, evidence_ref, detail, prepared_by, reviewer_status, recorded_at.
+
+**policy_exception_register**: exception_id, employee_id, rule_code, reason, approved_by, valid_from, valid_to, source (Pre-approved or Review decision), case_id, recorded_at.
+
+**policy_monthly**: one row per month: claims_paid, amount_paid, claims_checked, cases_opened, cases_escalated, disallowed, recovered, controls_passed, controls_total.
+
 ## Control totals
 
-`reporting/control_totals.csv` holds 14 totals calculated in SQL (T01–T14: total cost, total chargeback, unallocated at close, chargeback per business unit, posted journals, journal difference, exceptions, escalations, controls passed, reconciliation failures). The Excel workpaper (R09) and the Power BI report (R10) recalculate them and compare.
+`reporting/control_totals.csv` holds 20 totals calculated in SQL: T01–T14 for the chargeback (total cost, total chargeback, unallocated at close, chargeback per business unit, posted journals, journal difference, exceptions, escalations, controls passed, reconciliation failures) and T15–T20 for the expense policy review (claims checked, cases, escalated, disallowed, recovered, governance controls passed). The Excel workpaper (R09) recalculates 18 of them and the Power BI report (R10) all 20.

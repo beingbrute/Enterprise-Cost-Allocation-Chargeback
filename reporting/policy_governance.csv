@@ -1,0 +1,73 @@
+period,control_id,control_name,result,passed,evidence_ref,detail,prepared_by,reviewer_status,recorded_at
+2025-01,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 1,31 of 31 claims checked,pipeline,Reviewed (simulated),2025-02-07 17:00:00
+2025-01,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-02-07 17:00:00
+2025-01,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-02-07 17:00:00
+2025-01,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-02-07 17:00:00
+2025-01,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 0, recovered 0, outstanding 0",pipeline,Reviewed (simulated),2025-02-07 17:00:00
+2025-01,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-02-07 17:00,,pipeline,Reviewed (simulated),2025-02-07 17:00:00
+2025-02,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 2,28 of 28 claims checked,pipeline,Reviewed (simulated),2025-03-07 17:00:00
+2025-02,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-03-07 17:00:00
+2025-02,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-03-07 17:00:00
+2025-02,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-03-07 17:00:00
+2025-02,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 120.00, recovered 0.00, outstanding 120.00",pipeline,Reviewed (simulated),2025-03-07 17:00:00
+2025-02,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-03-07 17:00,,pipeline,Reviewed (simulated),2025-03-07 17:00:00
+2025-03,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 3,53 of 53 claims checked,pipeline,Reviewed (simulated),2025-04-07 17:00:00
+2025-03,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-04-07 17:00:00
+2025-03,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-04-07 17:00:00
+2025-03,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-04-07 17:00:00
+2025-03,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 460.00, recovered 120.00, outstanding 340.00",pipeline,Reviewed (simulated),2025-04-07 17:00:00
+2025-03,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-04-07 17:00,,pipeline,Reviewed (simulated),2025-04-07 17:00:00
+2025-04,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 4,33 of 33 claims checked,pipeline,Reviewed (simulated),2025-05-08 17:00:00
+2025-04,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-05-08 17:00:00
+2025-04,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-05-08 17:00:00
+2025-04,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-05-08 17:00:00
+2025-04,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 460.00, recovered 460.00, outstanding 0",pipeline,Reviewed (simulated),2025-05-08 17:00:00
+2025-04,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-05-08 17:00,,pipeline,Reviewed (simulated),2025-05-08 17:00:00
+2025-05,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 5,49 of 49 claims checked,pipeline,Reviewed (simulated),2025-06-06 17:00:00
+2025-05,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-06-06 17:00:00
+2025-05,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-06-06 17:00:00
+2025-05,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-06-06 17:00:00
+2025-05,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 460.00, recovered 460.00, outstanding 0",pipeline,Reviewed (simulated),2025-06-06 17:00:00
+2025-05,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-06-06 17:00,,pipeline,Reviewed (simulated),2025-06-06 17:00:00
+2025-06,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 6,34 of 34 claims checked,pipeline,Reviewed (simulated),2025-07-07 17:00:00
+2025-06,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-07-07 17:00:00
+2025-06,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-07-07 17:00:00
+2025-06,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-07-07 17:00:00
+2025-06,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 1320.00, recovered 1320.00, outstanding 0",pipeline,Reviewed (simulated),2025-07-07 17:00:00
+2025-06,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-07-07 17:00,,pipeline,Reviewed (simulated),2025-07-07 17:00:00
+2025-07,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 7,56 of 56 claims checked,pipeline,Reviewed (simulated),2025-08-07 17:00:00
+2025-07,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-08-07 17:00:00
+2025-07,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-08-07 17:00:00
+2025-07,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-08-07 17:00:00
+2025-07,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 1340.00, recovered 1320.00, outstanding 20.00",pipeline,Reviewed (simulated),2025-08-07 17:00:00
+2025-07,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-08-07 17:00,,pipeline,Reviewed (simulated),2025-08-07 17:00:00
+2025-08,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 8,26 of 26 claims checked,pipeline,Reviewed (simulated),2025-09-05 17:00:00
+2025-08,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-09-05 17:00:00
+2025-08,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-09-05 17:00:00
+2025-08,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-09-05 17:00:00
+2025-08,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 1640.00, recovered 1340.00, outstanding 300.00",pipeline,Reviewed (simulated),2025-09-05 17:00:00
+2025-08,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-09-05 17:00,,pipeline,Reviewed (simulated),2025-09-05 17:00:00
+2025-09,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 9,53 of 53 claims checked,pipeline,Reviewed (simulated),2025-10-07 17:00:00
+2025-09,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-10-07 17:00:00
+2025-09,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-10-07 17:00:00
+2025-09,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-10-07 17:00:00
+2025-09,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 1704.00, recovered 1640.00, outstanding 64.00",pipeline,Reviewed (simulated),2025-10-07 17:00:00
+2025-09,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-10-07 17:00,,pipeline,Reviewed (simulated),2025-10-07 17:00:00
+2025-10,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 10,48 of 48 claims checked,pipeline,Reviewed (simulated),2025-11-07 17:00:00
+2025-10,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-11-07 17:00:00
+2025-10,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-11-07 17:00:00
+2025-10,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-11-07 17:00:00
+2025-10,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 1724.00, recovered 1724.00, outstanding 0",pipeline,Reviewed (simulated),2025-11-07 17:00:00
+2025-10,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-11-07 17:00,,pipeline,Reviewed (simulated),2025-11-07 17:00:00
+2025-11,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 11,31 of 31 claims checked,pipeline,Reviewed (simulated),2025-12-05 17:00:00
+2025-11,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2025-12-05 17:00:00
+2025-11,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2025-12-05 17:00:00
+2025-11,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2025-12-05 17:00:00
+2025-11,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 2164.00, recovered 1744.00, outstanding 420.00",pipeline,Reviewed (simulated),2025-12-05 17:00:00
+2025-11,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2025-12-05 17:00,,pipeline,Reviewed (simulated),2025-12-05 17:00:00
+2025-12,G01,Every claim paid in the month was checked,Pass,True,pol.review_runs run 12,42 of 42 claims checked,pipeline,Reviewed (simulated),2026-01-08 17:00:00
+2025-12,G02,Every case opened was triaged within 1 working day,Pass,True,pol.cases triaged_at,0 case(s) triaged late or not at all,pipeline,Reviewed (simulated),2026-01-08 17:00:00
+2025-12,G03,No case closed without evidence and full recovery,Pass,True,"pol.cases evidence, recovered",0 case(s),pipeline,Reviewed (simulated),2026-01-08 17:00:00
+2025-12,G04,Every past-due case was escalated,Pass,True,pol.case_events (Escalated),0 past-due case(s) not escalated,pipeline,Reviewed (simulated),2026-01-08 17:00:00
+2025-12,G05,Disallowed = recovered + outstanding,Pass,True,"pol.cases disallowed, recovered","disallowed 2254.00, recovered 2164.00, outstanding 90.00",pipeline,Reviewed (simulated),2026-01-08 17:00:00
+2025-12,G06,Governance report issued for the month,Pass,True,rpt.policy_* views as at 2026-01-08 17:00,,pipeline,Reviewed (simulated),2026-01-08 17:00:00

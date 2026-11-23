@@ -1,0 +1,16 @@
+claim_id,check_code,decision,disallowed,triage_after_wd,decide_after_wd,evidence,recover_after_wd,recovery_result,retry_after_wd,reviewer_note
+C0481,P02,Partly reimbursed,120.00,0,3,Receipt;Approval record,8,Recovered,,
+C0483,P06,Rejected,340.00,0,2,Receipt;Original claim reference,8,Recovered,,
+C0486,P07,Corrected,0.00,0,2,Department head re-approval;Merchant invoice,,,,
+C0487,P04,Partly reimbursed,860.00,0,4,Receipt;Economy fare quote,8,Recovered,,
+C0489,P02,Partly reimbursed,20.00,0,2,Receipt,8,Recovered,,
+C0492,P08,Corrected,0.00,0,2,Department head re-approval,,,,
+C0493,P05,Partly reimbursed,300.00,0,3,Receipt;Attendee list,8,Recovered,,
+C0494,P01,No breach,0.00,0,4,Receipt provided late,,,,
+C0495,P10,Partly reimbursed,64.00,0,2,Receipt,8,Recovered,,
+C0496,P03,Partly reimbursed,20.00,0,5,Receipt,8,Recovered,,
+C0497,P08,Corrected,0.00,0,3,Department head re-approval,,,,
+C0498,P09,Exception approved,0.00,0,6,Medical leave record;Exception register entry,,,,Medical leave Jul-Sep; late submission accepted
+C0499,P02,Partly reimbursed,20.00,0,7,Receipt,8,Recovered,,Reviewer away; decision late
+C0500,P04,Partly reimbursed,420.00,0,3,Receipt;Economy fare quote,8,Failed,6,
+C0501,P05,Partly reimbursed,90.00,0,3,Receipt;Attendee list,40,Recovered,,

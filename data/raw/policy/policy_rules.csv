@@ -1,0 +1,15 @@
+version,valid_from,valid_to,rule_key,value
+1,2025-01-01,2025-06-30,hotel_standard_night,200
+1,2025-01-01,2025-06-30,hotel_high_cost_night,300
+1,2025-01-01,2025-06-30,meals_day,75
+1,2025-01-01,2025-06-30,entertainment_per_attendee,150
+1,2025-01-01,2025-06-30,gift_per_item,100
+1,2025-01-01,2025-06-30,receipt_min,25
+1,2025-01-01,2025-06-30,submit_within_days,90
+2,2025-07-01,9999-12-31,hotel_standard_night,230
+2,2025-07-01,9999-12-31,hotel_high_cost_night,325
+2,2025-07-01,9999-12-31,meals_day,75
+2,2025-07-01,9999-12-31,entertainment_per_attendee,150
+2,2025-07-01,9999-12-31,gift_per_item,100
+2,2025-07-01,9999-12-31,receipt_min,25
+2,2025-07-01,9999-12-31,submit_within_days,60

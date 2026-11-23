@@ -222,7 +222,54 @@ Problems are planted in the synthetic data. The answer key lives in its own file
 | 7 | Excel control workpaper (Power Query) |
 | 8 | Power BI report (4 pages) |
 | 9 | Acceptance tests, README, SOP, data dictionary, management summary, screenshots |
+| 10 | Expense policy governance module (section 13) |
 
 ## 12. Out of scope
 
 A real ERP or general ledger (SAP, Oracle), Anaplan, tax, intercompany transfer pricing and real approvals. This project shows the process and the controls, not experience inside a real finance department.
+
+---
+
+## 13. Expense policy governance module
+
+Added after the chargeback build. The same Shared Services Finance team also reviews employee expense claims against the company's Travel & Expense policy ([expense_policy.md](expense_policy.md)), manages the cases that come out of those reviews, and reports on them every month.
+
+**Data (synthetic, 2025)**
+- 126 employees, each in one of the existing recipient cost centres, with a line manager, department head and business unit finance director.
+- 484 expense claims with line items (hotel, airfare, meals, client entertainment, ground transport, training, other), receipts, approvals and payment dates.
+- Two policy versions (v1 from 1 Jan, v2 from 1 Jul), the approval matrix and the exception register stored as data, not hard-coded.
+
+**Process (monthly, as a post-payment review)**
+1. Claims paid in the month are checked against the policy version in force on the expense date (checks P01–P10).
+2. Each failed check opens a case: intake, triage, review, decision, remediation, closure.
+3. Disallowed amounts are recovered from the employee; failed recoveries reopen the case.
+4. Daily check at 09:00 on working days escalates past-due cases. High cases over $1,000 are escalated at intake. Employees with 3 or more cases in 12 months are reported to their business unit finance director.
+5. Month-end governance controls G01–G06 are recorded with evidence references, as for the chargeback close.
+
+**Planted scenarios (answer key kept separately)**
+
+The month is when the claim was paid, which is when it is reviewed. The policy version is chosen by the expense date.
+
+| Paid | Planted situation | Expected outcome |
+|---|---|---|
+| Feb | Hotel $260 a night in a standard city, 2 nights | P02, partly reimbursed, $120 recovered |
+| Mar | Same hotel receipt claimed twice | P06, duplicate rejected, $340 recovered |
+| Apr | Expense on 6 Jan submitted 80 days later | No case (v1 deadline is 90 days) |
+| Apr | Claims of $450 and $430 at the same merchant on the same day, both approved by the line manager | P07, $880 needed a department head; corrected by re-approval |
+| May | Business class without pre-approval | P04, $860 above the economy fare disallowed |
+| May | Business class covered by a valid exception (X001) | No case |
+| Jul | Hotel $220 a night, expense on 26 Jun | P02 under v1 (cap $200), $20 disallowed |
+| Jul | Hotel $220 a night, expense on 8 Jul | No case under v2 (cap $230) |
+| Jun | Hotel $290 a night in London | No case (high-cost city cap $300) |
+| Jul | $1,250 claim approved by the claimant | P08, escalated at intake, corrected by re-approval |
+| Aug | Client dinner $900 for 4 attendees | P05, $300 over the per-attendee limit disallowed |
+| Aug | $40 taxi with no receipt; receipt provided in review | P01, closed as no breach |
+| Sep | Alcohol ($64) with no client present | P10, $64 disallowed |
+| Sep | Meals $95 in one day | P03, $20 disallowed |
+| Sep | $1,800 claim approved by a line manager | P08, escalated at intake, corrected by re-approval |
+| Sep | Expense on 15 Jul submitted 69 days later | P09 under v2 (60 days); exception approved (medical leave), added to the register |
+| Oct | Hotel $250 a night; decision made after the due date; the employee's third case in 2025 | P02, escalated at the daily check, reported to the business unit finance director |
+| Nov | Upgrade without pre-approval; first payroll recovery fails | P04, case reopened, $420 recovered on the second attempt |
+| Dec | Client lunch $180 per attendee; recovery not received by 31 Jan 2026 | P05, $90 outstanding at the end of the run (G05) |
+
+The data has 126 employees and 484 claims (956 lines). Apart from the planted claims, every claim is within policy.

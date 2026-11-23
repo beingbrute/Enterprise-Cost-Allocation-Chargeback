@@ -1,0 +1,20 @@
+period,claim_id,employee_id,check_code,severity,expected_decision,disallowed,escalated,note
+2025-02,C0481,E050,P02,Medium,Partly reimbursed,120.00,False,"Hotel $260 a night, standard city (v1 cap $200)"
+2025-03,C0483,E042,P06,High,Rejected,340.00,False,Same hotel claimed twice
+2025-04,C0484,E114,,,No case,0.00,False,Submitted 80 days after the expense (v1 allows 90)
+2025-04,C0486,E102,P07,High,Corrected,0.00,False,"Split claim: $880 at one merchant on one day, needed a department head"
+2025-05,C0487,E107,P04,Medium,Partly reimbursed,860.00,False,Business class without pre-approval
+2025-05,C0488,E088,,,No case,0.00,False,Business class with a valid exception (X001)
+2025-07,C0489,E093,P02,Medium,Partly reimbursed,20.00,False,Hotel $220 a night in June (v1 cap $200)
+2025-07,C0490,E065,,,No case,0.00,False,Hotel $220 a night in July (v2 cap $230)
+2025-06,C0491,E118,,,No case,0.00,False,Hotel $290 a night in London (high-cost cap $300)
+2025-07,C0492,E119,P08,High,Corrected,0.00,True,Claim approved by the claimant
+2025-08,C0493,E115,P05,Medium,Partly reimbursed,300.00,False,Client dinner $225 per attendee (limit $150)
+2025-08,C0494,E079,P01,Low,No breach,0.00,False,Taxi $40 without receipt; receipt found in review
+2025-09,C0495,E086,P10,High,Partly reimbursed,64.00,False,Alcohol with no client present
+2025-09,C0496,E050,P03,Low,Partly reimbursed,20.00,False,Meals $95 in one day (cap $75)
+2025-09,C0497,E049,P08,High,Corrected,0.00,True,"$1,800 approved by a line manager (needs department head)"
+2025-09,C0498,E076,P09,Low,Exception approved,0.00,False,Submitted 69 days after the expense (v2 allows 60); medical leave
+2025-10,C0499,E050,P02,Medium,Partly reimbursed,20.00,True,Hotel $250 (v2 cap $230); decided after the due date; third case for this employee
+2025-11,C0500,E052,P04,Medium,Partly reimbursed,420.00,False,Upgrade without pre-approval; first recovery failed
+2025-12,C0501,E077,P05,Medium,Partly reimbursed,90.00,False,Client lunch $180 per attendee; recovery outstanding at the end of the run

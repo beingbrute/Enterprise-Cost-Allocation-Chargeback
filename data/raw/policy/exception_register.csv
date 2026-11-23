@@ -1,0 +1,2 @@
+exception_id,employee_id,rule_code,reason,approved_by,valid_from,valid_to
+X001,E088,P04,"Long-haul flight, medical advice",E003,2025-05-01,2025-05-31

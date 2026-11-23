@@ -1,0 +1,85 @@
+case_id,event_at,event_type,detail
+1,2025-03-04 18:00:00,Opened,"Pune, 2 nights at 260.00 a night; cap 200 (v1)"
+1,2025-03-05 10:00:00,Triaged,Assigned to Expense Policy Analyst
+1,2025-03-07 15:00:00,Decided,Partly reimbursed; disallowed 120.00; evidence: Receipt;Approval record
+1,2025-03-07 15:00:00,Recovery requested,120.00 from E050
+1,2025-03-19 12:00:00,Recovered,120.00 recovered
+1,2025-03-19 12:00:00,Closed,
+2,2025-04-02 18:00:00,Opened,Duplicate of C0482
+2,2025-04-03 10:00:00,Triaged,Assigned to Expense Policy Analyst
+2,2025-04-04 15:00:00,Decided,Rejected; disallowed 340.00; evidence: Receipt;Original claim reference
+2,2025-04-04 15:00:00,Recovery requested,340.00 from E042
+2,2025-04-16 12:00:00,Recovered,340.00 recovered
+2,2025-04-16 12:00:00,Closed,
+3,2025-05-02 18:00:00,Opened,"2 claims at Office Mart on 2025-04-08 total 880.00; needs level 2, highest approval level 1"
+3,2025-05-06 10:00:00,Triaged,Assigned to Expense Policy Analyst
+3,2025-05-07 15:00:00,Decided,Corrected; disallowed 0.00; evidence: Department head re-approval;Merchant invoice
+3,2025-05-07 15:00:00,Closed,
+4,2025-06-03 18:00:00,Opened,Business fare 1480.00 without pre-approval
+4,2025-06-04 10:00:00,Triaged,Assigned to Expense Policy Analyst
+4,2025-06-09 15:00:00,Decided,Partly reimbursed; disallowed 860.00; evidence: Receipt;Economy fare quote
+4,2025-06-09 15:00:00,Recovery requested,860.00 from E107
+4,2025-06-19 12:00:00,Recovered,860.00 recovered
+4,2025-06-19 12:00:00,Closed,
+5,2025-08-04 18:00:00,Opened,"Jaipur, 1 nights at 220.00 a night; cap 200 (v1)"
+6,2025-08-04 18:00:00,Opened,Approved by the claimant
+6,2025-08-04 18:00:00,Escalated,"High with 1250.00 in question, above 1000.00"
+5,2025-08-05 10:00:00,Triaged,Assigned to Expense Policy Analyst
+6,2025-08-05 10:00:00,Triaged,Assigned to Expense Policy Analyst
+5,2025-08-06 15:00:00,Decided,Partly reimbursed; disallowed 20.00; evidence: Receipt
+5,2025-08-06 15:00:00,Recovery requested,20.00 from E093
+6,2025-08-06 15:00:00,Decided,Corrected; disallowed 0.00; evidence: Department head re-approval
+6,2025-08-06 15:00:00,Closed,
+5,2025-08-18 12:00:00,Recovered,20.00 recovered
+5,2025-08-18 12:00:00,Closed,
+7,2025-09-02 18:00:00,Opened,900.00 for 4 attendees (225.00 each); limit 150
+8,2025-09-02 18:00:00,Opened,No receipt for Ground transport 40.00
+7,2025-09-03 10:00:00,Triaged,Assigned to Expense Policy Analyst
+8,2025-09-03 10:00:00,Triaged,Assigned to Expense Policy Analyst
+7,2025-09-05 15:00:00,Decided,Partly reimbursed; disallowed 300.00; evidence: Receipt;Attendee list
+7,2025-09-05 15:00:00,Recovery requested,300.00 from E115
+8,2025-09-08 15:00:00,Decided,No breach; disallowed 0.00; evidence: Receipt provided late
+8,2025-09-08 15:00:00,Closed,
+7,2025-09-17 12:00:00,Recovered,300.00 recovered
+7,2025-09-17 12:00:00,Closed,
+9,2025-10-02 18:00:00,Opened,"Alcohol with no client present, 64.00"
+10,2025-10-02 18:00:00,Opened,Meals 95.00 on 2025-09-15; cap 75
+11,2025-10-02 18:00:00,Opened,Total 1800.00 needs level 2; approver level 1
+11,2025-10-02 18:00:00,Escalated,"High with 1800.00 in question, above 1000.00"
+12,2025-10-02 18:00:00,Opened,Submitted 69 days after the expense; limit 60 (v2)
+9,2025-10-03 10:00:00,Triaged,Assigned to Expense Policy Analyst
+10,2025-10-03 10:00:00,Triaged,Assigned to Expense Policy Analyst
+11,2025-10-03 10:00:00,Triaged,Assigned to Expense Policy Analyst
+12,2025-10-03 10:00:00,Triaged,Assigned to Expense Policy Analyst
+9,2025-10-06 15:00:00,Decided,Partly reimbursed; disallowed 64.00; evidence: Receipt
+9,2025-10-06 15:00:00,Recovery requested,64.00 from E086
+11,2025-10-07 15:00:00,Decided,Corrected; disallowed 0.00; evidence: Department head re-approval
+11,2025-10-07 15:00:00,Closed,
+10,2025-10-09 15:00:00,Decided,Partly reimbursed; disallowed 20.00; evidence: Receipt
+10,2025-10-09 15:00:00,Recovery requested,20.00 from E050
+12,2025-10-10 15:00:00,Decided,Exception approved; disallowed 0.00; evidence: Medical leave record;Exception register entry; Medical leave Jul-Sep; late submission accepted
+12,2025-10-10 15:00:00,Exception recorded,X002 for C0498
+12,2025-10-10 15:00:00,Closed,
+9,2025-10-16 12:00:00,Recovered,64.00 recovered
+9,2025-10-16 12:00:00,Closed,
+10,2025-10-21 12:00:00,Recovered,20.00 recovered
+10,2025-10-21 12:00:00,Closed,
+13,2025-11-04 18:00:00,Opened,"Hyderabad, 1 nights at 250.00 a night; cap 230 (v2)"
+13,2025-11-04 18:00:00,Repeat reported,3 cases in 12 months; reported to E001
+13,2025-11-05 10:00:00,Triaged,Assigned to Expense Policy Analyst
+13,2025-11-12 09:00:00,Escalated,Decision past due since 2025-11-11 17:00
+13,2025-11-13 15:00:00,Decided,Partly reimbursed; disallowed 20.00; evidence: Receipt; Reviewer away; decision late
+13,2025-11-13 15:00:00,Recovery requested,20.00 from E050
+13,2025-11-25 12:00:00,Recovered,20.00 recovered
+13,2025-11-25 12:00:00,Closed,
+14,2025-12-02 18:00:00,Opened,Premium economy fare 980.00 without pre-approval
+14,2025-12-03 10:00:00,Triaged,Assigned to Expense Policy Analyst
+14,2025-12-05 15:00:00,Decided,Partly reimbursed; disallowed 420.00; evidence: Receipt;Economy fare quote
+14,2025-12-05 15:00:00,Recovery requested,420.00 from E052
+14,2025-12-17 12:00:00,Recovery failed,Payroll deduction returned; case reopened
+14,2025-12-29 12:00:00,Recovered,420.00 recovered
+14,2025-12-29 12:00:00,Closed,
+15,2026-01-05 18:00:00,Opened,540.00 for 3 attendees (180.00 each); limit 150
+15,2026-01-06 10:00:00,Triaged,Assigned to Expense Policy Analyst
+15,2026-01-08 15:00:00,Decided,Partly reimbursed; disallowed 90.00; evidence: Receipt;Attendee list
+15,2026-01-08 15:00:00,Recovery requested,90.00 from E077

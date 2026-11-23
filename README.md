@@ -1,6 +1,6 @@
 # Enterprise Cost Allocation, Chargeback Controls & BI Reporting
 
-A monthly shared-cost chargeback process for a fictional company (Halden Group), built in PostgreSQL and Python and reported in Excel and Power BI. It covers one year (January to December 2025): source files arrive each month, are validated, allocated to business units, posted as balanced journals, reconciled, and closed with a control checklist. Problems are planted in the data on purpose to show how the process catches and handles them.
+A monthly shared-cost chargeback process for a fictional company (Halden Group), built in PostgreSQL and Python and reported in Excel and Power BI. It covers one year (January to December 2025): source files arrive each month, are validated, allocated to business units, posted as balanced journals, reconciled, and closed with a control checklist. A second module reviews employee expense claims against the company's travel and expense policy, manages the resulting cases through to recovery, and reports governance controls each month. Problems are planted in the data on purpose to show how the process catches and handles them.
 
 **All data is synthetic.** The company, cost centres, amounts and approvals are invented. Reviewer approvals are simulated by the pipeline and labelled as simulated. Nothing is posted to a real ledger.
 
@@ -57,31 +57,62 @@ Hierarchy changes (a cost centre moving business unit, a department moving, a co
 
 The expected outcomes are kept in `data/answer_key/expected_exceptions.csv` and are used only by the tests.
 
+## Expense policy review
+
+The same finance team reviews employee expense claims after payment against a written travel and expense policy ([docs/expense_policy.md](docs/expense_policy.md)). The policy has two versions (v1 from 1 January, v2 from 1 July, with higher hotel caps and a shorter submission deadline), an approval matrix and an exception register, all stored as data.
+
+Each month (`src/policy_review.py`):
+
+1. Every claim paid in the month is checked against checks P01 to P10 (missing receipt, hotel or meals over the cap, business class without pre-approval, entertainment over the per-attendee limit, duplicate, split claim, wrong approval level or self-approval, late submission, items not reimbursable). The policy version is chosen by the **expense date**, not the payment date.
+2. Each breach opens a case with severity, owner, amount in question and decision due date. High cases over $1,000 are escalated at intake; an employee's third case in 12 months is reported to their business unit finance director.
+3. The reviewer (simulated) triages, collects evidence and decides: no breach, exception approved (recorded in the exception register), partly reimbursed, rejected, or corrected (for process breaches such as the wrong approver).
+4. Disallowed amounts are recovered from the employee. A failed recovery reopens the case. A case cannot close without evidence for its decision and full recovery.
+5. A daily 09:00 check escalates past-due decisions and recoveries. Governance controls G01 to G06 are recorded each month.
+
+| Item | Result |
+|---|---|
+| Claims checked | 484 of 484 ($208,155.37) |
+| Cases | 15: 9 partly reimbursed, 3 corrected, 1 rejected, 1 exception approved, 1 no breach |
+| Escalated | 3 (two wrong-approval cases at intake, one decision made after its due date) |
+| Disallowed | $2,254.00, of which $2,164.00 recovered and $90.00 outstanding at 30 Jan 2026 |
+| Governance controls | 72 of 72 passed |
+
+Four planted claims look close to a breach but are within policy (an 80-day late claim under v1's 90-day limit, a $220 hotel night in July under v2's $230 cap, a $290 night in London, and business class covered by a valid exception). None of them raised a case.
+
+![Power BI policy governance](screenshots/powerbi_policy_governance.png)
+
 ## Reporting
 
 **Excel control workpaper** (`excel/chargeback_control_workpaper.xlsx`), built with Power Query from the exported reporting tables:
-- R09: 12 SQL control totals recalculated in Excel with SUMIFS, COUNTIFS and XLOOKUP, all matching
+- R09: 18 SQL control totals recalculated in Excel with SUMIFS, COUNTIFS, SUMPRODUCT and XLOOKUP, all matching
 - control evidence and exceptions tracker with conditional formatting
 - chargeback by business unit (PivotTable)
+- expense policy case tracker with conditional formatting (escalated, decided late, still outstanding)
 
 | | |
 |---|---|
 | ![Excel R09](screenshots/excel_r09_reconciliation.png) | ![Excel cover](screenshots/excel_cover.png) |
 
-**Power BI report** (`powerbi/chargeback_report.pbix`), connected to the PostgreSQL reporting views with a star schema and DAX measures. Four pages:
+**Power BI report** (`powerbi/chargeback_report.pbix`), connected to the PostgreSQL reporting views with a star schema and DAX measures. Five pages:
 - **Overview:** cost, chargeback, allocated-by-close %, controls and escalations
 - **Allocation & Variance:** chargeback by business unit and month, month-on-month change, cost rates per pool
 - **Exceptions & Controls:** exception log with SLA results, close controls by month
-- **Journals & Reconciliation:** journal register, reconciliation results, and R10 (14 Power BI totals checked against SQL control totals, all matching)
+- **Journals & Reconciliation:** journal register, reconciliation results, and R10 (20 Power BI totals checked against SQL control totals, all matching)
+- **Policy Governance:** claims checked, cases, escalations, amounts disallowed, recovered and outstanding, cases by check and decision, governance controls G01 to G06 by month, and the case log
 
 | | |
 |---|---|
 | ![Allocation](screenshots/powerbi_allocation_variance.png) | ![Exceptions](screenshots/powerbi_exceptions_controls.png) |
-| ![Journals](screenshots/powerbi_journals_reconciliation.png) | |
+| ![Journals](screenshots/powerbi_journals_reconciliation.png) | ![Excel policy cases](screenshots/excel_policy_cases.png) |
 
 ## Tests
 
-`tests/` has 30 tests (pytest). They check the finished year against the answer key and the rules: exceptions, escalation times, SLA, totals by business unit, hierarchy moves, the closed cost centre, the policy change, balanced journals, the April correction, rerun idempotency, the single reconciliation and control failure, and that an open Critical exception rejects the month close while an open High one does not. Twelve of the tests recalculate allocations from the raw CSV files with pandas, without any SQL, and compare them to what was posted. Each test runs in a transaction that is rolled back, so the data is not changed.
+`tests/` has 43 tests (pytest).
+
+- **Chargeback (30):** the finished year against the answer key and the rules: exceptions, escalation times, SLA, totals by business unit, hierarchy moves, the closed cost centre, the policy change, balanced journals, the April correction, rerun idempotency, the single reconciliation and control failure, and that an open Critical exception rejects the month close while an open High one does not. Twelve of them recalculate allocations from the raw CSV files with pandas, without any SQL, and compare them to what was posted.
+- **Expense policy (13):** cases against the answer key, the four traps, policy version by expense date, closure rules, the failed recovery, escalation times, the repeat report, the exception register, amounts and governance controls, and an independent pandas recalculation of every policy rule from the raw files that must find exactly the same breaches as the SQL checks.
+
+Each test runs in a transaction that is rolled back, so the data is not changed.
 
 ## Tools
 
@@ -90,15 +121,16 @@ PostgreSQL 17 (schemas, PL/pgSQL functions, views), Python 3.13 (psycopg2, panda
 ## Project structure
 
 ```
-data/raw/            monthly source files (expenses, volumes, hierarchy changes) and reference data
-data/answer_key/     expected exceptions, used only by the tests
-sql/                 01 schema, 02 functions (validation, allocation, reconciliation), 03 reporting views
-src/                 generate_data.py, load_sources.py, pipeline.py, export_reporting.py, db.py
+data/raw/            monthly source files (expenses, volumes, hierarchy changes), reference data, and policy/ (expense claims)
+data/answer_key/     expected exceptions and policy cases, used only by the tests
+sql/                 01-03 chargeback (schema, functions, reporting views), 04-06 expense policy (schema, checks, views)
+src/                 generate_data.py, load_sources.py, pipeline.py, export_reporting.py, db.py,
+                     generate_policy_data.py, load_policy.py, policy_review.py
 tests/               acceptance tests and the independent pandas recalculation
 reporting/           reporting views exported to CSV, plus SQL control totals
 excel/               control workpaper
 powerbi/             Power BI report and theme
-docs/                design, month-end SOP, data dictionary, management summary
+docs/                design, expense policy, month-end SOP, data dictionary, management summary
 screenshots/
 ```
 
@@ -113,6 +145,10 @@ python src/load_sources.py --port 5433           # create the database, tables, 
 python src/pipeline.py run-year --port 5433      # run the year: 33 runs and 12 closes
 python src/pipeline.py show --period 2025-06 --port 5433
 python src/pipeline.py rerun --period 2025-03 --port 5433   # rerun a finished month: 0 new journals
+python src/generate_policy_data.py               # optional: rebuild the expense claims (fixed seed)
+python src/load_policy.py --port 5433            # expense policy schema, checks and views, load the claims
+python src/policy_review.py run-year --port 5433 # review the year: 484 claims, 15 cases
+python src/policy_review.py show --case 14 --port 5433
 python src/export_reporting.py --port 5433       # export reporting tables for Excel and Power BI
 python -m pytest -s -v tests --port 5433
 ```
@@ -122,6 +158,7 @@ To refresh the Power BI report, point its PostgreSQL source at your server (Tran
 ## Limits
 
 - One year of synthetic data for one company; no real ERP, general ledger or approval workflow.
-- Reviewer approvals are simulated by the pipeline.
+- Reviewer approvals and expense-case decisions are simulated from data files, not made by people.
+- Running `load_sources.py` again rebuilds the reporting views, so run `load_policy.py` and `policy_review.py run-year` after it.
 - The timeline is replayed by the script, not run by a scheduler.
 - Power BI uses Import mode from a local PostgreSQL database, so the report needs that database to refresh.

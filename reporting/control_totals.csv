@@ -13,3 +13,9 @@ T11,Exceptions,9
 T12,Exceptions escalated,3
 T13,Control results passed,95
 T14,Reconciliation failures,1
+T15,Policy: claims checked,484
+T16,Policy: cases,15
+T17,Policy: cases escalated,3
+T18,Policy: amount disallowed,2254.00
+T19,Policy: amount recovered,2164.00
+T20,Policy: governance controls passed,72

@@ -1,0 +1,3 @@
+exception_id,employee_id,rule_code,reason,approved_by,valid_from,valid_to,source,case_id,recorded_at
+X001,E088,P04,"Long-haul flight, medical advice",E003,2025-05-01,2025-05-31,Pre-approved,,
+X002,E076,P09,Medical leave Jul-Sep; late submission accepted,E010,,,Review decision,12,2025-10-10 15:00:00

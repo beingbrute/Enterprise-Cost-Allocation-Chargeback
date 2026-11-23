@@ -42,9 +42,27 @@ Six of the nine exceptions came from errors in volume files (unknown, missing, n
 2. **Late corrections.** The June correction arrived after close, and the April headcount correction arrived two months late and needed a reversal and replacement. Corrections received after close should have a deadline in the next month.
 3. **Hierarchy changes.** The November mapping error (a cost centre mapped to a department that did not exist) blocked all four pools until it was corrected the next day. Mapping changes should be checked against the department list before they are submitted.
 
+## Expense policy review
+
+All 484 expense claims paid in 2025 ($208,155.37) were reviewed against the travel and expense policy after payment.
+
+| Measure | 2025 |
+|---|---|
+| Claims with a policy breach | 15 (3.1%) |
+| Amount disallowed | $2,254.00 |
+| Recovered | $2,164.00 (96.0%) |
+| Outstanding at 30 Jan 2026 | $90.00 (one December case, recovery requested) |
+| Cases escalated | 3 |
+| Decided within deadline | 14 of 15 |
+| Governance controls passed | 72 of 72 |
+
+Most breaches were spending over a limit (hotel, meals, entertainment, upgrades and alcohol: 9 cases, partly reimbursed); one duplicate claim was rejected. Three were approval problems (a self-approved claim, a claim approved one level too low, and a purchase split across two claims to stay under the department-head limit); the spend itself was valid, so these were corrected by re-approval rather than disallowed. One employee had three cases in the year and was reported to their finance director.
+
+**Point for attention:** approval breaches are the more serious finding, because they bypass a control rather than overspend a limit. The expense system should block self-approval and check the approval level against the combined total of claims from the same merchant on the same day.
+
 ## How the numbers were checked
 
-- Reconciliations R01 to R08 after every run.
-- R09: the Excel workpaper recalculates 12 SQL totals; all match.
-- R10: the Power BI report recalculates 14 SQL totals; all match.
-- 30 automated tests compare the results with an answer key, and 12 of them recalculate allocations independently from the raw files.
+- Reconciliations R01 to R08 after every chargeback run.
+- R09: the Excel workpaper recalculates 18 SQL totals; all match.
+- R10: the Power BI report recalculates 20 SQL totals; all match.
+- 43 automated tests compare the results with two answer keys. Twelve recalculate allocations independently from the raw files, and one applies every expense policy rule to the raw claims with pandas and must find exactly the same breaches as the SQL checks.

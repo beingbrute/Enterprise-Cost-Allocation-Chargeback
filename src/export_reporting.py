@@ -5,6 +5,8 @@ Writes to reporting/:
   allocation_summary.csv, fact_chargeback.csv, journals.csv, exceptions.csv,
   control_results.csv, reconciliations.csv, monthly_kpis.csv,
   dim_period.csv, dim_pool.csv, dim_business_unit.csv, dim_cost_centre_period.csv
+  expense policy module: dim_employee.csv, policy_claims.csv, policy_cases.csv, policy_case_events.csv,
+  policy_governance.csv, policy_exception_register.csv, policy_monthly.csv
   control_totals.csv  - totals calculated in SQL, so Excel and Power BI can prove
                         they show the same numbers (reconciliations R09 and R10)
 
@@ -22,7 +24,10 @@ OUT = ROOT / "reporting"
 
 VIEWS = ["allocation_summary", "fact_chargeback", "journals", "exceptions", "control_results",
          "reconciliations", "monthly_kpis", "dim_period", "dim_pool", "dim_business_unit",
-         "dim_cost_centre_period"]
+         "dim_cost_centre_period",
+         # expense policy module
+         "dim_employee", "policy_claims", "policy_cases", "policy_case_events", "policy_governance",
+         "policy_exception_register", "policy_monthly"]
 
 CONTROL_TOTALS = [
     ("T01", "Total shared cost (source expense)", "SELECT SUM(pool_cost) FROM rpt.allocation_summary"),
@@ -39,6 +44,12 @@ CONTROL_TOTALS = [
     ("T12", "Exceptions escalated", "SELECT COUNT(*) FROM rpt.exceptions WHERE escalated"),
     ("T13", "Control results passed", "SELECT COUNT(*) FROM rpt.control_results WHERE passed"),
     ("T14", "Reconciliation failures", "SELECT COUNT(*) FROM rpt.reconciliations WHERE result = 'Fail'"),
+    ("T15", "Policy: claims checked", "SELECT SUM(claims_checked) FROM rpt.policy_monthly"),
+    ("T16", "Policy: cases", "SELECT COUNT(*) FROM rpt.policy_cases"),
+    ("T17", "Policy: cases escalated", "SELECT COUNT(*) FROM rpt.policy_cases WHERE escalated"),
+    ("T18", "Policy: amount disallowed", "SELECT SUM(disallowed) FROM rpt.policy_cases"),
+    ("T19", "Policy: amount recovered", "SELECT SUM(recovered) FROM rpt.policy_cases"),
+    ("T20", "Policy: governance controls passed", "SELECT COUNT(*) FROM rpt.policy_governance WHERE passed"),
 ]
 
 
