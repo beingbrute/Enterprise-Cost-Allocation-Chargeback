@@ -48,7 +48,8 @@ All 484 expense claims paid in 2025 ($208,155.37) were reviewed against the trav
 
 | Measure | 2025 |
 |---|---|
-| Claims with a policy breach | 15 (3.1%) |
+| Claims flagged by a policy check | 15 (3.1%) |
+| Cleared after review | 1 (a taxi claim, once the missing receipt was provided) |
 | Amount disallowed | $2,254.00 |
 | Recovered | $2,164.00 (96.0%) |
 | Outstanding at 30 Jan 2026 | $90.00 (one December case, recovery requested) |

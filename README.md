@@ -72,7 +72,7 @@ Each month (`src/policy_review.py`):
 | Item | Result |
 |---|---|
 | Claims checked | 484 of 484 ($208,155.37) |
-| Cases | 15: 9 partly reimbursed, 3 corrected, 1 rejected, 1 exception approved, 1 no breach |
+| Cases | 15 flagged. After review: 9 partly reimbursed, 3 corrected, 1 rejected, 1 exception approved, 1 cleared as no breach |
 | Escalated | 3 (two wrong-approval cases at intake, one decision made after its due date) |
 | Disallowed | $2,254.00, of which $2,164.00 recovered and $90.00 outstanding at 30 Jan 2026 |
 | Governance controls | 72 of 72 passed |
